@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\NRF24L01_rx\cmsis_lib /I..\..\..\workspace\NRF24L01_rx\cmsis /I..\..\..\workspace /IJ:\$МИКРОЭЛЕКТРОНИКА\Радиоуправления\STM /I..\..\..\workspace\NRF24L01_rx\cmsis_lib\include /I..\..\..\workspace\NRF24L01_rx\cmsis_boot /I..\..\..\workspace\NRF24L01_rx /IJ:\$МИКРОЭЛЕКТРОНИКА\Радиоуправления\STM\STM32F4\nRF24L01p /IJ:\$МИКРОЭЛЕКТРОНИКА\Радиоуправления\STM\STM32F4">
+      <source file="J:\$МИКРОЭЛЕКТРОНИКА\Радиоуправления\STM\STM32F4\nRF24L01p\nrf24l01p.h" lastModified="13bedf74ae8">
+         <include file="J:\$МИКРОЭЛЕКТРОНИКА\Радиоуправления\STM\STM32F4\nRF24L01p\nrf24l01p_reg.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="13edfe90858">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="13edfe9086f">
+      </source>
+      <source file="J:\$МИКРОЭЛЕКТРОНИКА\Радиоуправления\STM\STM32F4\nRF24L01p\nrf24l01p.c" lastModified="13be237ffb8">
+         <include file="J:\$МИКРОЭЛЕКТРОНИКА\Радиоуправления\STM\STM32F4\nRF24L01p\nrf24l01p.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="13edfe90463">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="13edfe90462">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="13edfe90431">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="13edffb8d49">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="13edfe90839">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="13edfe95659">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="13edffb8d49">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="13edfe9483b">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="13edfe908eb">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="13edfe90862">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="13edfe9049a">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h" lastModified="13edfe908e2">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="13edfe9043d">
+      </source>
+      <source file="J:\$МИКРОЭЛЕКТРОНИКА\Радиоуправления\STM\STM32F4\nRF24L01p\nrf24l01p_reg.h" lastModified="13bcae7b4e8">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="13edfe90432">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="13edfe90861">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="13edfe9048a">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+</dependencies>

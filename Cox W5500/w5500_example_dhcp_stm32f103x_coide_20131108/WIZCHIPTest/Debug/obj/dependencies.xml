@@ -1,0 +1,228 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/ID:\Google Диск\ARMProject\Cox W5500 /ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108\CoX /ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108\CoX\CoX_Peripheral /ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108\Internet /ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108\CoX\CoX_Peripheral\inc /ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108 /ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108\Internet\DHCP /ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108\Ethernet\W5500 /ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108\Ethernet">
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xhw_gpio.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\Ethernet\wizchip_conf.h" lastModified="15e485ee460">
+         <include file="..\..\..\Ethernet\W5500\w5500.h"/>
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xhw_types.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xgpio.h" lastModified="141c68aa120">
+      </source>
+      <source file="..\..\..\Ethernet\wizchip_conf.c" lastModified="15e485ed8a8">
+         <include file="..\..\..\Ethernet\wizchip_conf.h"/>
+      </source>
+      <source file="..\..\..\Ethernet\socket.h" lastModified="15e485ed4c0">
+         <include file="..\..\..\Ethernet\wizchip_conf.h"/>
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\src\xgpio.c" lastModified="141c68aa8f0">
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_types.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_ints.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_memmap.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_config.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_nvic.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_gpio.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xdebug.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xsysctl.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xcore.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xgpio.h"/>
+      </source>
+      <source file="..\..\..\Ethernet\W5500\w5500.h" lastModified="15e485ed8a8">
+         <include file="..\..\..\Ethernet\wizchip_conf.h"/>
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xhw_config.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\Ethernet\socket.c" lastModified="15e485ed4c0">
+         <include file="..\..\..\Ethernet\socket.h"/>
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\src\xdebug.c" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xcore.h" lastModified="141c68ab0c0">
+      </source>
+      <source file="..\..\..\Ethernet\W5500\w5500.c" lastModified="15e485ed4c0">
+         <include file="..\..\..\Ethernet\W5500\w5500.h"/>
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xsysctl.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\src\xsysctl.c" lastModified="141c68aa8f0">
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_types.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_ints.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_memmap.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_config.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_nvic.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xdebug.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xsysctl.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xcore.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="1410636ca20">
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_types.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_ints.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_memmap.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xuart.h"/>
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xspi.h" lastModified="141c68aa120">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xhw_uart.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\Internet\DHCP\dhcp.h" lastModified="15e485ed4c0">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\src\xspi.c" lastModified="141c68aa120">
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_types.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_ints.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_memmap.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_config.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_nvic.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_spi.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xdebug.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xsysctl.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xspi.h"/>
+      </source>
+      <source file="..\..\..\Internet\DHCP\dhcp.c" lastModified="15e485ed8a8">
+         <include file="..\..\..\Ethernet\socket.h"/>
+         <include file="..\..\..\Internet\DHCP\dhcp.h"/>
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xhw_spi.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xuart.h" lastModified="141c68ac830">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xhw_sysctl.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xhw_ints.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xdebug.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\src\xuart.c" lastModified="141c68ac830">
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_types.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_ints.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_memmap.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_config.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_nvic.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_uart.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xdebug.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xsysctl.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xuart.h"/>
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\src\xcore.c" lastModified="141c68ab0c0">
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_types.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_ints.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_memmap.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_nvic.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xdebug.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xcore.h"/>
+      </source>
+      <source file="..\..\..\startup_coide.c" lastModified="141c68ab890">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xhw_memmap.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xhw_nvic.h" lastModified="141c68aa8f0">
+      </source>
+   </includePath>
+   <includePath signature="/ID:\Google Диск\ARMProject\Cox W5500\ioLibrary_Driver-master /ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108\CoX /ID:\Google Диск\ARMProject\Cox W5500\ioLibrary_Driver-master\ioLibrary_Driver-master\Ethernet\W5500 /ID:\Google Диск\ARMProject\Cox W5500\ioLibrary_Driver-master\ioLibrary_Driver-master /ID:\Google Диск\ARMProject\Cox W5500\ioLibrary_Driver-master\ioLibrary_Driver-master\Internet\DHCP /ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108\CoX\CoX_Peripheral /ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108\CoX\CoX_Peripheral\inc /ID:\Google Диск\ARMProject\Cox W5500\ioLibrary_Driver-master\ioLibrary_Driver-master\Internet /ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108 /ID:\Google Диск\ARMProject\Cox W5500\ioLibrary_Driver-master\ioLibrary_Driver-master\Ethernet">
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xhw_gpio.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xhw_types.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xgpio.h" lastModified="141c68aa120">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\src\xgpio.c" lastModified="141c68aa8f0">
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_types.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_ints.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_memmap.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_config.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_nvic.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_gpio.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xdebug.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xsysctl.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xcore.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xgpio.h"/>
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xhw_config.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\src\xdebug.c" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\..\ioLibrary_Driver-master\ioLibrary_Driver-master\Ethernet\socket.h" lastModified="15e485ed4c0">
+         <include file="..\..\..\..\ioLibrary_Driver-master\ioLibrary_Driver-master\Ethernet\wizchip_conf.h"/>
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xcore.h" lastModified="141c68ab0c0">
+      </source>
+      <source file="..\..\..\..\ioLibrary_Driver-master\ioLibrary_Driver-master\Ethernet\socket.c" lastModified="15e485ed4c0">
+         <include file="..\..\..\..\ioLibrary_Driver-master\ioLibrary_Driver-master\Ethernet\socket.h"/>
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xsysctl.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\src\xsysctl.c" lastModified="141c68aa8f0">
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_types.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_ints.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_memmap.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_config.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_nvic.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xdebug.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xsysctl.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xcore.h"/>
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xspi.h" lastModified="141c68aa120">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xhw_uart.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\src\xspi.c" lastModified="141c68aa120">
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_types.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_ints.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_memmap.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_config.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_nvic.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_spi.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xdebug.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xsysctl.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xspi.h"/>
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xhw_spi.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xuart.h" lastModified="141c68ac830">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xhw_sysctl.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\..\ioLibrary_Driver-master\ioLibrary_Driver-master\Internet\DHCP\dhcp.h" lastModified="15e485ed4c0">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xhw_ints.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xdebug.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\..\ioLibrary_Driver-master\ioLibrary_Driver-master\Ethernet\W5500\w5500.c" lastModified="15e485ed4c0">
+         <include file="..\..\..\..\ioLibrary_Driver-master\ioLibrary_Driver-master\Ethernet\W5500\w5500.h"/>
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\src\xuart.c" lastModified="141c68ac830">
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_types.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_ints.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_memmap.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_config.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_nvic.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_sysctl.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_uart.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xdebug.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xsysctl.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xuart.h"/>
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\src\xcore.c" lastModified="141c68ab0c0">
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_types.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_ints.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_memmap.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xhw_nvic.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xdebug.h"/>
+         <include file="..\..\..\CoX\CoX_Peripheral\inc\xcore.h"/>
+      </source>
+      <source file="..\..\..\startup_coide.c" lastModified="141c68ab890">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xhw_memmap.h" lastModified="141c68aa8f0">
+      </source>
+      <source file="..\..\..\CoX\CoX_Peripheral\inc\xhw_nvic.h" lastModified="141c68aa8f0">
+      </source>
+   </includePath>
+</dependencies>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -g2 -Wall -O2 -c -DSTM32F100RBT6B -DSTM32F10X_MD_VL -ID:\Google Диск\ARMProject\Cox W5500 -ID:\Google Диск\ARMProject\Cox W5500\ioLibrary_Driver-master\ioLibrary_Driver-master -ID:\Google Диск\ARMProject\Cox W5500\ioLibrary_Driver-master\ioLibrary_Driver-master\Internet\DHCP -ID:\Google Диск\ARMProject\Cox W5500\WIZNET\CoX -ID:\Google Диск\ARMProject\Cox W5500\WIZNET\CoX\CoX_Peripheral\inc -ID:\Google Диск\ARMProject\Cox W5500\WIZNET\Ethernet\W5500 -ID:\Google Диск\ARMProject\Cox W5500\ioLibrary_Driver-master\ioLibrary_Driver-master\Internet -ID:\Google Диск\ARMProject\Cox W5500\WIZNET\CoX\CoX_Peripheral -ID:\Google Диск\ARMProject\Cox W5500\WIZNET\Ethernet -ID:\Google Диск\ARMProject\Cox W5500\WIZNET">
+      <target file="xcore.o" lastModified="15fd3d10a28">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xcore.c" lastModified="14821955d70"/>
+      </target>
+      <target file="syscalls.o" lastModified="15fd3d11103">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="14821955d70"/>
+      </target>
+      <target file="w5500.o" lastModified="15fd3d10e93">
+         <source file="..\..\..\Ethernet\W5500\w5500.c" lastModified="14821965770"/>
+      </target>
+      <target file="wizchip_conf.o" lastModified="15fd3d10d02">
+         <source file="..\..\..\Ethernet\wizchip_conf.c" lastModified="14821965770"/>
+      </target>
+      <target file="xdebug.o" lastModified="15fd3d10942">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xdebug.c" lastModified="14821955d70"/>
+      </target>
+      <target file="xuart.o" lastModified="15fd3d11351">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xuart.c" lastModified="14821955d70"/>
+      </target>
+      <target file="dhcp.o" lastModified="15fd3d11261">
+         <source file="..\..\..\..\ioLibrary_Driver-master\ioLibrary_Driver-master\Internet\DHCP\dhcp.c" lastModified="15e485ed4c0"/>
+      </target>
+      <target file="startup_coide.o" lastModified="15fd3d108dc">
+         <source file="..\..\..\startup_coide.c" lastModified="14821955d70"/>
+      </target>
+      <target file="printf.o" lastModified="15fd3d10dea">
+         <source file="..\..\..\stdio\printf.c" lastModified="15fd3b43d45"/>
+      </target>
+      <target file="xspi.o" lastModified="15fd3d11074">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xspi.c" lastModified="14821955d70"/>
+      </target>
+      <target file="socket.o" lastModified="15fd3d10865">
+         <source file="..\..\..\Ethernet\socket.c" lastModified="14821965770"/>
+      </target>
+      <target file="main.o" lastModified="15fd3f125ac">
+         <source file="..\..\..\main.c" lastModified="15fd3dc2c97"/>
+      </target>
+      <target file="xsysctl.o" lastModified="15fd3d10f95">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xsysctl.c" lastModified="15fd39fac81"/>
+      </target>
+      <target file="xgpio.o" lastModified="15fd3d10b43">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xgpio.c" lastModified="14821955d70"/>
+      </target>
+   </processor>
+</history>

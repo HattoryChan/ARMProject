@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/ID:\Google Диск\ARMProject\Cocox\w5500 reborn\Ethernet /ID:\Google Диск\ARMProject\Cocox\w5500 reborn\stm_lib /ID:\Google Диск\ARMProject\Cocox\w5500 reborn\stm_lib\inc /ID:\Google Диск\ARMProject\Cocox\w5500 reborn\cmsis /ID:\Google Диск\ARMProject /ID:\Google Диск\ARMProject\Cocox\w5500 reborn\Ethernet\W5500 /ID:\Google Диск\ARMProject\Cocox\w5500 reborn\cmsis_boot /ID:\Google Диск\ARMProject\Cocox\w5500 reborn\Library /ID:\Google Диск\ARMProject\Cocox\w5500 reborn /ID:\Google Диск\ARMProject\Cocox">
+      <source file="..\..\..\Ethernet\socket.h" lastModified="14835531bd8">
+         <include file="..\..\..\Ethernet\wizchip_conf.h"/>
+      </source>
+      <source file="..\..\..\Ethernet\W5500\w5500.c" lastModified="16157b5e98e">
+         <include file="..\..\..\Ethernet\W5500\w5500.h"/>
+      </source>
+      <source file="..\..\..\Ethernet\wizchip_conf.c" lastModified="14835531fca">
+         <include file="..\..\..\Ethernet\wizchip_conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="144061cf6a7">
+      </source>
+      <source file="..\..\..\Ethernet\socket.c" lastModified="1614cadc7f4">
+         <include file="..\..\..\Ethernet\socket.h"/>
+      </source>
+      <source file="..\..\..\Ethernet\W5500\w5500.h" lastModified="14835531ff2">
+         <include file="..\..\..\Ethernet\wizchip_conf.h"/>
+      </source>
+      <source file="..\..\..\Ethernet\wizchip_conf.h" lastModified="148355323bc">
+         <include file="..\..\..\Ethernet\W5500\w5500.h"/>
+      </source>
+   </includePath>
+</dependencies>

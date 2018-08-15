@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m3 -mthumb -g2 -nostartfiles -Map=web_discovery_sd.map -Os --gc-sections -LD:/Google Диск/ARMProject/Cocox/web_discovery+w5500_sd/web_discovery+w5500_sd -TD:/Google Диск/ARMProject/Cocox/web_discovery+w5500_sd/web_discovery+w5500_sd/arm-gcc-link.ld -g">
+      <target file="web_discovery_sd.elf" lastModified="16157b5ee87">
+         <source file="..\obj\startup_stm32f10x_md_vl.o" lastModified="1614841108a"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="16148411104"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="161484115f3"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="16148411025"/>
+         <source file="..\obj\misc.o" lastModified="16148411a3a"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="16148411b00"/>
+         <source file="..\obj\syscalls.o" lastModified="16148411723"/>
+         <source file="..\obj\w5500.o" lastModified="16157b5ec45"/>
+         <source file="..\obj\stm32f10x_bkp.o" lastModified="16148411b84"/>
+         <source file="..\obj\socket.o" lastModified="1614cadcb45"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="16148411186"/>
+         <source file="..\obj\spi.o" lastModified="16157b3b826"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="1614841123a"/>
+         <source file="..\obj\main.o" lastModified="16157a394f4"/>
+         <source file="..\obj\wizchip_conf.o" lastModified="16148411517"/>
+      </target>
+   </processor>
+</history>

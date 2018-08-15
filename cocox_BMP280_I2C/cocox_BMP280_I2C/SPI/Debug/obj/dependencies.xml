@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\zotovis\Desktop\BMP280\cocox_BMP280_I2C\cmsis_boot /I..\..\..\..\..\Users\zotovis\Desktop\BMP280 /I..\..\..\..\..\Users\zotovis\Desktop\BMP280\cocox_BMP280_I2C /I..\..\..\..\..\Users\zotovis\Desktop\BMP280\cocox_BMP280_I2C\stm_lib\inc /I..\..\..\..\..\Users\zotovis\Desktop /I..\..\..\..\..\Users\zotovis\Desktop\BMP280\cocox_BMP280_I2C\stm_lib /I..\..\..\..\..\Users\zotovis\Desktop\BMP280\cocox_BMP280_I2C\cmsis">
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="16074ce6735">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="161e335ff7e">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\i2c.h" lastModified="1625274e33f">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="16074ce38eb">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="16074ce38ec">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="161e335ffb0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="161e3360054">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="16074ce3503">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="16074ce6349">
+      </source>
+      <source file="..\..\..\i2c.c" lastModified="16268b5bef4">
+         <include file="..\..\..\i2c.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="16074ce634d">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="161e3360036">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="16074ce634f">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_i2c.h" lastModified="161e335fe56">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="161e335fe89">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="16074ce634e">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+   </includePath>
+</dependencies>

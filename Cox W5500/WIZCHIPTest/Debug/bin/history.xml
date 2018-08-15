@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.7.4 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=WIZCHIPTest.map -O3 --gc-sections --specs=nano.specs -LC:\CooCox\CoIDE\configuration\ProgramData\WIZCHIPTest -TC:\CooCox\CoIDE\configuration\ProgramData\WIZCHIPTest/arm-gcc-link.ld -g">
+      <target file="WIZCHIPTest.elf" lastModified="14221694dbd">
+         <source file="..\obj\socket.o" lastModified="142216937e7"/>
+         <source file="..\obj\startup_coide.o" lastModified="1422169387d"/>
+         <source file="..\obj\xdebug.o" lastModified="142216938eb"/>
+         <source file="..\obj\xcore.o" lastModified="14221693a3f"/>
+         <source file="..\obj\xgpio.o" lastModified="14221693e13"/>
+         <source file="..\obj\main.o" lastModified="14221693fad"/>
+         <source file="..\obj\wizchip_conf.o" lastModified="142216941dd"/>
+         <source file="..\obj\w5500.o" lastModified="14221694417"/>
+         <source file="..\obj\xsysctl.o" lastModified="14221694601"/>
+         <source file="..\obj\xspi.o" lastModified="1422169474b"/>
+         <source file="..\obj\syscalls.o" lastModified="1422169481d"/>
+         <source file="..\obj\xuart.o" lastModified="14221694999"/>
+      </target>
+   </processor>
+</history>

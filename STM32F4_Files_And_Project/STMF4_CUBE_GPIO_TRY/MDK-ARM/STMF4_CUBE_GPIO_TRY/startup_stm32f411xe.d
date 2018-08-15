@@ -1,0 +1,1 @@
+stmf4_cube_gpio_try\startup_stm32f411xe.o: startup_stm32f411xe.s

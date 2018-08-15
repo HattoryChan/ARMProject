@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-g++ noversion nomachine -mcpu=cortex-m3 -mthumb -g2 -Wall -O0 -c -DSTM32F100RBT6B -ID:\Google Диск\ARMProject\Новая папка\Stm32_ESP8266_FloraProject\MainCode -ID:\Google Диск\ARMProject\Новая папка\Stm32_ESP8266_FloraProject\CMSIS_Startup -ID:\Google Диск\ARMProject\Новая папка\Stm32_ESP8266_FloraProject\CMSIS_Startup\Startup -ID:\Google Диск\ARMProject\Новая папка\Stm32_ESP8266_FloraProject -ID:\Google Диск\ARMProject\Новая папка -ID:\Google Диск\ARMProject\Новая папка\Stm32_ESP8266_FloraProject\CMSIS_Startup\CMSIS\CoreSupport -ID:\Google Диск\ARMProject\Новая папка\Stm32_ESP8266_FloraProject\CMSIS_Startup\CMSIS -ID:\Google Диск\ARMProject\Новая папка\Stm32_ESP8266_FloraProject\Hardware_STM32 -ID:\Google Диск\ARMProject\STM32_FloraProject\Stm32_ESP8266_FloraProject">
+      <target file="STM32_Timer_Library.o" lastModified="15c20ee166f">
+         <source file="..\..\..\..\..\Новая папка\Stm32_ESP8266_FloraProject\Hardware_STM32\STM32_Timer_Library.cpp" lastModified="15c20e41c55"/>
+      </target>
+      <target file="ESP8266_AT.o" lastModified="15c20ee1788">
+         <source file="..\..\..\..\..\Новая папка\Stm32_ESP8266_FloraProject\Hardware_STM32\ESP8266_AT.cpp" lastModified="15c19c828d4"/>
+      </target>
+      <target file="ESP8266_SendUart.o" lastModified="15c20ee1422">
+         <source file="..\..\..\..\..\Новая папка\Stm32_ESP8266_FloraProject\Hardware_STM32\ESP8266_SendUart.cpp" lastModified="15c20e369ef"/>
+      </target>
+      <target file="STM32_LightAndWaterRelay_Control.o" lastModified="15c20ee159f">
+         <source file="..\..\..\..\..\Новая папка\Stm32_ESP8266_FloraProject\Hardware_STM32\STM32_LightAndWaterRelay_Control.cpp" lastModified="15c061fb4c4"/>
+      </target>
+      <target file="STM32_Termistor_Library.o" lastModified="15c20ee1824">
+         <source file="..\..\..\..\..\Новая папка\Stm32_ESP8266_FloraProject\Hardware_STM32\STM32_Termistor_Library.cpp" lastModified="15c1a40f4db"/>
+      </target>
+      <target file="main.o" lastModified="15c20ee1507">
+         <source file="..\..\..\..\..\Новая папка\Stm32_ESP8266_FloraProject\MainCode\main.cpp" lastModified="15c20e61cc9"/>
+      </target>
+   </processor>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -g2 -Wall -O0 -c -DSTM32F100RBT6B -ID:\Google Диск\ARMProject\Новая папка\Stm32_ESP8266_FloraProject\MainCode -ID:\Google Диск\ARMProject\Новая папка\Stm32_ESP8266_FloraProject\CMSIS_Startup -ID:\Google Диск\ARMProject\Новая папка\Stm32_ESP8266_FloraProject\CMSIS_Startup\Startup -ID:\Google Диск\ARMProject\Новая папка\Stm32_ESP8266_FloraProject -ID:\Google Диск\ARMProject\Новая папка -ID:\Google Диск\ARMProject\Новая папка\Stm32_ESP8266_FloraProject\CMSIS_Startup\CMSIS\CoreSupport -ID:\Google Диск\ARMProject\Новая папка\Stm32_ESP8266_FloraProject\CMSIS_Startup\CMSIS -ID:\Google Диск\ARMProject\Новая папка\Stm32_ESP8266_FloraProject\Hardware_STM32 -ID:\Google Диск\ARMProject\STM32_FloraProject\Stm32_ESP8266_FloraProject">
+      <target file="system_stm32f10x.o" lastModified="15c20ee1cb1">
+         <source file="..\..\..\..\..\Новая папка\Stm32_ESP8266_FloraProject\CMSIS_Startup\CMSIS\system_stm32f10x.c" lastModified="128292e5570"/>
+      </target>
+   </processor>
+</history>

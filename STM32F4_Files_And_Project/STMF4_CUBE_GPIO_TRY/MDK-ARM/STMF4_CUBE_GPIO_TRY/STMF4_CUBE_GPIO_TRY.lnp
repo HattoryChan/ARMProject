@@ -1,0 +1,24 @@
+--cpu=Cortex-M4.fp
+"stmf4_cube_gpio_try\startup_stm32f411xe.o"
+"stmf4_cube_gpio_try\system_stm32f4xx.o"
+"stmf4_cube_gpio_try\stm32f4xx_hal_msp.o"
+"stmf4_cube_gpio_try\main.o"
+"stmf4_cube_gpio_try\stm32f4xx_it.o"
+"stmf4_cube_gpio_try\stm32f4xx_hal_flash_ex.o"
+"stmf4_cube_gpio_try\stm32f4xx_hal_tim.o"
+"stmf4_cube_gpio_try\stm32f4xx_hal.o"
+"stmf4_cube_gpio_try\stm32f4xx_hal_flash.o"
+"stmf4_cube_gpio_try\stm32f4xx_hal_cortex.o"
+"stmf4_cube_gpio_try\stm32f4xx_hal_tim_ex.o"
+"stmf4_cube_gpio_try\stm32f4xx_hal_rcc_ex.o"
+"stmf4_cube_gpio_try\stm32f4xx_hal_flash_ramfunc.o"
+"stmf4_cube_gpio_try\stm32f4xx_hal_gpio.o"
+"stmf4_cube_gpio_try\stm32f4xx_hal_dma_ex.o"
+"stmf4_cube_gpio_try\stm32f4xx_hal_dma.o"
+"stmf4_cube_gpio_try\stm32f4xx_hal_pwr_ex.o"
+"stmf4_cube_gpio_try\stm32f4xx_hal_pwr.o"
+"stmf4_cube_gpio_try\stm32f4xx_hal_rcc.o"
+--library_type=microlib --strict --scatter "STMF4_CUBE_GPIO_TRY\STMF4_CUBE_GPIO_TRY.sct"
+--diag_suppress=L6329 --show_parent_lib --show_full_path --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STMF4_CUBE_GPIO_TRY.map" -o STMF4_CUBE_GPIO_TRY\STMF4_CUBE_GPIO_TRY.axf

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 2.0.6" name="Stm32_ESP8266_FloraProject">
+  <Target name="Stm32_ESP8266_FloraProject" isCurrent="1">
+    <Device manufacturerId="9" manufacturerName="ST" chipId="508" chipName="STM32F100RBT6B" boardId="" boardName="" boardUrl="" coreId="3" coreName="Cortex M3"/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="0"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=""/>
+        <Option name="SupportCPlusplus" value="0"/>
+        <Option name="DEBUG" value="2"/>
+        <Option name="WARNING" value="1"/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="STM32F100RBT6B"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <Option name="nostartfiles" value="0"/>
+        <Option name="LTO" value="0"/>
+        <Option name="IsNewStartupCode" value="1"/>
+        <LinkedLibraries/>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00020000" startValue="0x08000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00002000" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
+        </MemoryAreas>
+        <LocateLinkFile path="c:/users/admin/appdata/roaming/coocox/coide/configuration/programdata/stm32_esp8266_floraproject/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="Stm32_ESP8266_FloraProject"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="ST-Link"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value="D:\Program Files (x86)\SEGGER\JLink_V490e\JLinkGDBServerCL.exe"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="C:\Users\Admin\AppData\Roaming\CooCox\CoIDE\config\flash\CooCox-Flash\CoIDE_STM32F1xx_MD_128K\STM32F10x_MD_128.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./"/>
+  <LocalComponents/>
+  <Files>
+    <File name="CMSIS_StartUp/core_cm3.c" path="../../Новая папка/Stm32_ESP8266_FloraProject/CMSIS_Startup/CMSIS/CoreSupport/core_cm3.c" type="1"/>
+    <File name="Hardware" path="" type="2"/>
+    <File name="CMSIS_StartUp/startup_stm32f10x_md_vl.s" path="../../Новая папка/Stm32_ESP8266_FloraProject/CMSIS_Startup/Startup/startup_stm32f10x_md_vl.s" type="1"/>
+    <File name="Hardware/STM32_LightAndWaterRelay_Control.h" path="../../Новая папка/Stm32_ESP8266_FloraProject/Hardware_STM32/STM32_LightAndWaterRelay_Control.h" type="1"/>
+    <File name="CMSIS_StartUp/system_stm32f10x.c" path="../../Новая папка/Stm32_ESP8266_FloraProject/CMSIS_Startup/CMSIS/system_stm32f10x.c" type="1"/>
+    <File name="CMSIS_StartUp/stm32f10x.h" path="../../Новая папка/Stm32_ESP8266_FloraProject/CMSIS_Startup/Startup/stm32f10x.h" type="1"/>
+    <File name="Hardware/ESP8266_AT.cpp" path="../../Новая папка/Stm32_ESP8266_FloraProject/Hardware_STM32/ESP8266_AT.cpp" type="1"/>
+    <File name="Hardware/ESP8266_AT.h" path="../../Новая папка/Stm32_ESP8266_FloraProject/Hardware_STM32/ESP8266_AT.h" type="1"/>
+    <File name="Hardware/delay.h" path="../../Новая папка/Stm32_ESP8266_FloraProject/Hardware_STM32/delay.h" type="1"/>
+    <File name="Hardware/ESP8266_SendUart.h" path="../../Новая папка/Stm32_ESP8266_FloraProject/Hardware_STM32/ESP8266_SendUart.h" type="1"/>
+    <File name="Hardware/STM32_Termistor_Library.cpp" path="../../Новая папка/Stm32_ESP8266_FloraProject/Hardware_STM32/STM32_Termistor_Library.cpp" type="1"/>
+    <File name="Hardware/ESP8266_SendUart.cpp" path="../../Новая папка/Stm32_ESP8266_FloraProject/Hardware_STM32/ESP8266_SendUart.cpp" type="1"/>
+    <File name="CMSIS_StartUp/core_cm3.h" path="../../Новая папка/Stm32_ESP8266_FloraProject/CMSIS_Startup/CMSIS/CoreSupport/core_cm3.h" type="1"/>
+    <File name="CMSIS_StartUp/system_stm32f10x.h" path="../../Новая папка/Stm32_ESP8266_FloraProject/CMSIS_Startup/CMSIS/system_stm32f10x.h" type="1"/>
+    <File name="Hardware/STM32_LightAndWaterRelay_Control.cpp" path="../../Новая папка/Stm32_ESP8266_FloraProject/Hardware_STM32/STM32_LightAndWaterRelay_Control.cpp" type="1"/>
+    <File name="mainCode/main.h" path="../../Новая папка/Stm32_ESP8266_FloraProject/MainCode/main.h" type="1"/>
+    <File name="mainCode/main.cpp" path="../../Новая папка/Stm32_ESP8266_FloraProject/MainCode/main.cpp" type="1"/>
+    <File name="mainCode" path="" type="2"/>
+    <File name="CMSIS_StartUp" path="" type="2"/>
+    <File name="Hardware/STM32_Termistor_Library.h" path="../../Новая папка/Stm32_ESP8266_FloraProject/Hardware_STM32/STM32_Termistor_Library.h" type="1"/>
+    <File name="Hardware/STM32_Timer_Library.h" path="../../Новая папка/Stm32_ESP8266_FloraProject/Hardware_STM32/STM32_Timer_Library.h" type="1"/>
+    <File name="Hardware/STM32_Timer_Library.cpp" path="../../Новая папка/Stm32_ESP8266_FloraProject/Hardware_STM32/STM32_Timer_Library.cpp" type="1"/>
+  </Files>
+  <Bookmarks/>
+</Project>

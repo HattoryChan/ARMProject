@@ -1,0 +1,8 @@
+--cpu=Cortex-M4.fp
+".\objects\main.o"
+".\objects\system_stm32f4xx.o"
+".\objects\startup_stm32f411xe.o"
+--strict --scatter ".\Objects\28.02.2017 GPIO Try 2.sct"
+--diag_suppress=L6329 --show_parent_lib --show_full_path --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\28.02.2017 GPIO Try 2.map" -o ".\Objects\28.02.2017 GPIO Try 2.axf"

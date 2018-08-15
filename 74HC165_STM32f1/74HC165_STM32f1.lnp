@@ -1,0 +1,8 @@
+--cpu Cortex-M3
+".\main.o"
+".\init_adc_stm32f1.o"
+".\startup_stm32f10x_md_vl.o"
+".\system_stm32f10x.o"
+--entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\74HC165_STM32f1.map" -o .\74HC165_STM32f1.axf

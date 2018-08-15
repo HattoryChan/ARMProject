@@ -1,0 +1,4 @@
+CRC = CRC + byte16 * 44111
+CRC = CRC XOR(^) (CRC SMR(>>) 8)
+
+char = 1byte => Crc was calculated for 16 char

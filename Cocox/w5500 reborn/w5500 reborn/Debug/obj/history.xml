@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -g2 -Wall -O0 -c -Dstm32f100rbt6 -DSTM32F10X_MD_VL -ID:\Google Диск\ARMProject\Cocox\w5500 reborn\Ethernet -ID:\Google Диск\ARMProject\Cocox\w5500 reborn\stm_lib -ID:\Google Диск\ARMProject\Cocox\w5500 reborn\stm_lib\inc -ID:\Google Диск\ARMProject\Cocox\w5500 reborn\cmsis -ID:\Google Диск\ARMProject -ID:\Google Диск\ARMProject\Cocox\w5500 reborn\Ethernet\W5500 -ID:\Google Диск\ARMProject\Cocox\w5500 reborn\Library -ID:\Google Диск\ARMProject\Cocox\w5500 reborn\cmsis_boot -ID:\Google Диск\ARMProject\Cocox\w5500 reborn -ID:\Google Диск\ARMProject\Cocox">
+      <target file="stm32f10x_pwr.o" lastModified="161581ffe11">
+         <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="144061d0131"/>
+      </target>
+      <target file="startup_stm32f10x_md_vl.o" lastModified="161581ffd10">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="144061cf6a7"/>
+      </target>
+      <target file="w5500.o" lastModified="16158200198">
+         <source file="..\..\..\Ethernet\W5500\w5500.c" lastModified="16157b5e98e"/>
+      </target>
+      <target file="wizchip_conf.o" lastModified="1615820002d">
+         <source file="..\..\..\Ethernet\wizchip_conf.c" lastModified="14835531be2"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="161581ffca8">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="144061d2855"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="161581ffd8e">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="144061cf6e3"/>
+      </target>
+      <target file="stm32f10x_spi.o" lastModified="1615820030e">
+         <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="144061d1c6b"/>
+      </target>
+      <target file="socket.o" lastModified="161581ffa35">
+         <source file="..\..\..\Ethernet\socket.c" lastModified="1614cadc7f4"/>
+      </target>
+      <target file="main.o" lastModified="161581fff82">
+         <source file="..\..\..\app\main.c" lastModified="161581565fc"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="161581ffece">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="144061d06c7"/>
+      </target>
+      <target file="spi.o" lastModified="161581ffab6">
+         <source file="..\..\..\Library\spi.c" lastModified="16157b3b572"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="16158200109">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="144061cf66b"/>
+      </target>
+      <target file="stm32f10x_bkp.o" lastModified="161582003b6">
+         <source file="..\..\..\stm_lib\src\stm32f10x_bkp.c" lastModified="144061d016d"/>
+      </target>
+      <target file="misc.o" lastModified="16158200234">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="144061d359d"/>
+      </target>
+   </processor>
+</history>

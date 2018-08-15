@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F100RB -DSTM32F10X_MD_VL -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\zotovis\Desktop\BMP280\cocox_BMP280_I2C\cmsis_boot -I..\..\..\..\..\Users\zotovis\Desktop\BMP280 -I..\..\..\..\..\Users\zotovis\Desktop\BMP280\cocox_BMP280_I2C -I..\..\..\..\..\Users\zotovis\Desktop\BMP280\cocox_BMP280_I2C\stm_lib\inc -I..\..\..\..\..\Users\zotovis\Desktop -I..\..\..\..\..\Users\zotovis\Desktop\BMP280\cocox_BMP280_I2C\stm_lib -I..\..\..\..\..\Users\zotovis\Desktop\BMP280\cocox_BMP280_I2C\cmsis">
+      <target file="stm32f10x_rcc.o" lastModified="1626e12db2f">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="161e335ffb0"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1626e12ce60">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="16074ce634e"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="1626e12deb2">
+         <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="161e335fe89"/>
+      </target>
+      <target file="startup_stm32f10x_md_vl.o" lastModified="1626e12cbae">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="16074ce6349"/>
+      </target>
+      <target file="main.o" lastModified="1626e209f7f">
+         <source file="..\..\..\main.c" lastModified="1626e2098cd"/>
+      </target>
+      <target file="i2c.o" lastModified="1626e12c8c6">
+         <source file="..\..\..\i2c.c" lastModified="16268b5bef4"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1626e12d1a2">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="161e3360054"/>
+      </target>
+   </processor>
+</history>

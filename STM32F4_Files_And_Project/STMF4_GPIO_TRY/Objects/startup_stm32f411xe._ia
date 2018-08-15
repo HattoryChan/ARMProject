@@ -1,0 +1,6 @@
+--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork 
+-I"D:\Google Диск\ARMProject\STM32F4_Files_And_Project\STMF4_GPIO_TRY\RTE\_26.02.2017"
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+--pd "__UVISION_VERSION SETA 522" --pd "STM32F411xE SETA 1"
+--list .\listings\startup_stm32f411xe.lst --xref -o .\objects\startup_stm32f411xe.o --depend .\objects\startup_stm32f411xe.d "CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f411xe.s"

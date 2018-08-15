@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O3 -c -DSTM32F103CB -DSTM32F10X_MD -ID:\WORK\2.PROJECTs\IPv4\W5500\3.FW\W5500_example_loopback_stm32f103x_coide\CoX -ID:\WORK\2.PROJECTs\IPv4\W5500\3.FW\W5500_example_loopback_stm32f103x_coide\Ethernet\W5500 -ID:\WORK\2.PROJECTs\IPv4\W5500\3.FW\W5500_example_loopback_stm32f103x_coide\CoX\CoX_Peripheral -ID:\WORK\2.PROJECTs\IPv4\W5500\3.FW\W5500_example_loopback_stm32f103x_coide\Ethernet -ID:\WORK\2.PROJECTs\IPv4\W5500\3.FW -ID:\WORK\2.PROJECTs\IPv4\W5500\3.FW\W5500_example_loopback_stm32f103x_coide\CoX\CoX_Peripheral\inc -ID:\WORK\2.PROJECTs\IPv4\W5500\3.FW\W5500_example_loopback_stm32f103x_coide">
+      <target file="syscalls.o" lastModified="1422169481d">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="141055b0080"/>
+      </target>
+      <target file="xcore.o" lastModified="14221693a3f">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xcore.c" lastModified="141c5aef6c0"/>
+      </target>
+      <target file="w5500.o" lastModified="14221694417">
+         <source file="..\..\..\Ethernet\W5500\w5500.c" lastModified="141cabb4e2e"/>
+      </target>
+      <target file="wizchip_conf.o" lastModified="142216941dd">
+         <source file="..\..\..\Ethernet\wizchip_conf.c" lastModified="141caba50c4"/>
+      </target>
+      <target file="xuart.o" lastModified="14221694999">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xuart.c" lastModified="141c5af0e30"/>
+      </target>
+      <target file="xdebug.o" lastModified="142216938eb">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xdebug.c" lastModified="141c5aeeef0"/>
+      </target>
+      <target file="startup_coide.o" lastModified="1422169387d">
+         <source file="..\..\..\startup_coide.c" lastModified="141c5aefe90"/>
+      </target>
+      <target file="xspi.o" lastModified="1422169474b">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xspi.c" lastModified="141c5aee720"/>
+      </target>
+      <target file="socket.o" lastModified="142216937e7">
+         <source file="..\..\..\Ethernet\socket.c" lastModified="14220d50721"/>
+      </target>
+      <target file="main.o" lastModified="14221693fad">
+         <source file="..\..\..\main.c" lastModified="14210f7d8c8"/>
+      </target>
+      <target file="xsysctl.o" lastModified="14221694601">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xsysctl.c" lastModified="141c5aeeef0"/>
+      </target>
+      <target file="xgpio.o" lastModified="14221693e13">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xgpio.c" lastModified="141c5aeeef0"/>
+      </target>
+   </processor>
+</history>

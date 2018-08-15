@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -D__EVAL -g -O2 --apcs=interwork --split_sections -I .\CMSIS\Include -I .\CMSIS\Device\ST\STM32F4xx\Include -I .\CMSIS\Device\ST\STM32F4xx\Source\Templates -I .\main -I .\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm -I .\STM32F4xx_StdPeriph_Driver\inc
+-I"D:\Google Диск\ARMProject\STM32F4_Files_And_Project\STMF4_GPIO_TRY\RTE\_26.02.2017"
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-IC:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="522" -DSTM32F411xE --C99
+-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d "CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c"

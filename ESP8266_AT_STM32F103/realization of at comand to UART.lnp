@@ -1,0 +1,11 @@
+--cpu Cortex-M3
+".\main.o"
+".\esp8266_at.o"
+".\esp8266_senduart.o"
+".\stm32_flash.o"
+".\stm32_timer_library.o"
+".\startup_stm32f10x_md_vl.o"
+".\system_stm32f10x.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\realization of at comand to UART.map" -o ".\realization of at comand to UART.axf"

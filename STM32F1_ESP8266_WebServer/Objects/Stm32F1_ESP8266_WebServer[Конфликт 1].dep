@@ -1,0 +1,88 @@
+Dependencies for Project 'Stm32F1_ESP8266', Target 'WebServer': (DO NOT MODIFY !)
+F (.\CMSIS_Startup\Startup\core_cm3.h)(0x4D526588)()
+F (.\CMSIS_Startup\Startup\startup_stm32f10x_md_vl.s)(0x4D7866FE)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I"C:\Users\Админ\Desktop\Google Drive\ARMProject\STM32F1_ESP8266_WebServer\RTE"-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521" --pd "STM32F10X_MD_VL SETA 1"--list .\listings\startup_stm32f10x_md_vl.lst --xref -o .\objects\startup_stm32f10x_md_vl.o --depend .\objects\startup_stm32f10x_md_vl.d)
+F (.\CMSIS_Startup\Startup\stm32f10x.h)(0x4BD132C4)()
+F (.\CMSIS_Startup\CMSIS\system_stm32f10x.c)(0x4BD132C6)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS_Startup\CMSIS\CoreSupport -I .\MainCode -I .\CMSIS_Startup\Startup -I .\CMSIS_Startup\CMSIS -I .\Hardware_STM32-I"C:\Users\Админ\Desktop\Google Drive\ARMProject\STM32F1_ESP8266_WebServer\RTE"-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_MD_VL-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (.\CMSIS_Startup\Startup\stm32f10x.h)(0x4BD132C4)
+I (.\CMSIS_Startup\Startup\core_cm3.h)(0x4D526588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E7666)
+I (.\CMSIS_Startup\CMSIS\system_stm32f10x.h)(0x4BD132C6)
+F (.\CMSIS_Startup\CMSIS\system_stm32f10x.h)(0x4BD132C6)()
+F (.\CMSIS_Startup\CMSIS\CoreSupport\core_cm3.c)(0x4C0C82AE)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS_Startup\CMSIS\CoreSupport -I .\MainCode -I .\CMSIS_Startup\Startup -I .\CMSIS_Startup\CMSIS -I .\Hardware_STM32-I"C:\Users\Админ\Desktop\Google Drive\ARMProject\STM32F1_ESP8266_WebServer\RTE"-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_MD_VL-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E7666)
+F (.\MainCode\main.cpp)(0x59314A57)(--cpp -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS_Startup\CMSIS\CoreSupport -I .\MainCode -I .\CMSIS_Startup\Startup -I .\CMSIS_Startup\CMSIS -I .\Hardware_STM32-I"C:\Users\Админ\Desktop\Google Drive\ARMProject\STM32F1_ESP8266_WebServer\RTE"-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_MD_VL-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (MainCode\main.h)(0x592FAC62)
+I (.\Hardware_STM32\STM32_Timer_Library.h)(0x5926DA79)
+I (.\CMSIS_Startup\Startup\stm32f10x.h)(0x4BD132C4)
+I (.\CMSIS_Startup\Startup\core_cm3.h)(0x4D526588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E7666)
+I (.\CMSIS_Startup\CMSIS\system_stm32f10x.h)(0x4BD132C6)
+I (.\Hardware_STM32\ESP8266_AT.h)(0x591D20CF)
+I (.\Hardware_STM32\ESP8266_SendUart.h)(0x5906CE75)
+I (.\Hardware_STM32\STM32_Termistor_Library.h)(0x591D3FBB)
+I (.\Hardware_STM32\STM32_LightAndWaterRelay_Control.h)(0x591802E2)
+I (.\Hardware_STM32\STM32_Flash.h)(0x5926D89D)
+I (.\Hardware_STM32\74HC595_InitAndWork.h)(0x592FAA63)
+F (.\MainCode\main.h)(0x592FAC62)()
+F (.\Hardware_STM32\delay.h)(0x57EBA50B)()
+F (.\Hardware_STM32\ESP8266_AT.cpp)(0x59235289)(--cpp -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS_Startup\CMSIS\CoreSupport -I .\MainCode -I .\CMSIS_Startup\Startup -I .\CMSIS_Startup\CMSIS -I .\Hardware_STM32-I"C:\Users\Админ\Desktop\Google Drive\ARMProject\STM32F1_ESP8266_WebServer\RTE"-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_MD_VL-o .\objects\esp8266_at.o --omf_browse .\objects\esp8266_at.crf --depend .\objects\esp8266_at.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E7666)
+I (Hardware_STM32\ESP8266_AT.h)(0x591D20CF)
+I (.\CMSIS_Startup\Startup\stm32f10x.h)(0x4BD132C4)
+I (.\CMSIS_Startup\Startup\core_cm3.h)(0x4D526588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E7666)
+I (.\CMSIS_Startup\CMSIS\system_stm32f10x.h)(0x4BD132C6)
+I (Hardware_STM32\ESP8266_SendUart.h)(0x5906CE75)
+F (.\Hardware_STM32\ESP8266_AT.h)(0x591D20CF)()
+F (.\Hardware_STM32\ESP8266_SendUart.h)(0x5906CE75)()
+F (.\Hardware_STM32\STM32_Timer_Library.cpp)(0x59314B48)(--cpp -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS_Startup\CMSIS\CoreSupport -I .\MainCode -I .\CMSIS_Startup\Startup -I .\CMSIS_Startup\CMSIS -I .\Hardware_STM32-I"C:\Users\Админ\Desktop\Google Drive\ARMProject\STM32F1_ESP8266_WebServer\RTE"-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_MD_VL-o .\objects\stm32_timer_library.o --omf_browse .\objects\stm32_timer_library.crf --depend .\objects\stm32_timer_library.d)
+I (Hardware_STM32\STM32_Timer_Library.h)(0x5926DA79)
+I (.\CMSIS_Startup\Startup\stm32f10x.h)(0x4BD132C4)
+I (.\CMSIS_Startup\Startup\core_cm3.h)(0x4D526588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E7666)
+I (.\CMSIS_Startup\CMSIS\system_stm32f10x.h)(0x4BD132C6)
+I (Hardware_STM32\STM32_Flash.h)(0x5926D89D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E7666)
+F (.\Hardware_STM32\STM32_Timer_Library.h)(0x5926DA79)()
+F (.\Hardware_STM32\ESP8266_SendUart.cpp)(0x591EFA3F)(--cpp -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS_Startup\CMSIS\CoreSupport -I .\MainCode -I .\CMSIS_Startup\Startup -I .\CMSIS_Startup\CMSIS -I .\Hardware_STM32-I"C:\Users\Админ\Desktop\Google Drive\ARMProject\STM32F1_ESP8266_WebServer\RTE"-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_MD_VL-o .\objects\esp8266_senduart.o --omf_browse .\objects\esp8266_senduart.crf --depend .\objects\esp8266_senduart.d)
+I (.\CMSIS_Startup\Startup\stm32f10x.h)(0x4BD132C4)
+I (.\CMSIS_Startup\Startup\core_cm3.h)(0x4D526588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E7666)
+I (.\CMSIS_Startup\CMSIS\system_stm32f10x.h)(0x4BD132C6)
+F (.\Hardware_STM32\STM32_Termistor_Library.cpp)(0x592084C5)(--cpp -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS_Startup\CMSIS\CoreSupport -I .\MainCode -I .\CMSIS_Startup\Startup -I .\CMSIS_Startup\CMSIS -I .\Hardware_STM32-I"C:\Users\Админ\Desktop\Google Drive\ARMProject\STM32F1_ESP8266_WebServer\RTE"-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_MD_VL-o .\objects\stm32_termistor_library.o --omf_browse .\objects\stm32_termistor_library.crf --depend .\objects\stm32_termistor_library.d)
+I (Hardware_STM32\STM32_Termistor_Library.h)(0x591D3FBB)
+I (.\CMSIS_Startup\Startup\stm32f10x.h)(0x4BD132C4)
+I (.\CMSIS_Startup\Startup\core_cm3.h)(0x4D526588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E7666)
+I (.\CMSIS_Startup\CMSIS\system_stm32f10x.h)(0x4BD132C6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x574E7666)
+F (.\Hardware_STM32\STM32_Termistor_Library.h)(0x591D3FBB)()
+F (.\Hardware_STM32\STM32_LightAndWaterRelay_Control.cpp)(0x592ED21A)(--cpp -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS_Startup\CMSIS\CoreSupport -I .\MainCode -I .\CMSIS_Startup\Startup -I .\CMSIS_Startup\CMSIS -I .\Hardware_STM32-I"C:\Users\Админ\Desktop\Google Drive\ARMProject\STM32F1_ESP8266_WebServer\RTE"-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_MD_VL-o .\objects\stm32_lightandwaterrelay_control.o --omf_browse .\objects\stm32_lightandwaterrelay_control.crf --depend .\objects\stm32_lightandwaterrelay_control.d)
+I (Hardware_STM32\STM32_LightAndWaterRelay_Control.h)(0x591802E2)
+I (.\CMSIS_Startup\Startup\stm32f10x.h)(0x4BD132C4)
+I (.\CMSIS_Startup\Startup\core_cm3.h)(0x4D526588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E7666)
+I (.\CMSIS_Startup\CMSIS\system_stm32f10x.h)(0x4BD132C6)
+I (Hardware_STM32\STM32_Timer_Library.h)(0x5926DA79)
+F (.\Hardware_STM32\STM32_LightAndWaterRelay_Control.h)(0x591802E2)()
+F (.\Hardware_STM32\STM32_Flash.cpp)(0x592C2311)(--cpp -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS_Startup\CMSIS\CoreSupport -I .\MainCode -I .\CMSIS_Startup\Startup -I .\CMSIS_Startup\CMSIS -I .\Hardware_STM32-I"C:\Users\Админ\Desktop\Google Drive\ARMProject\STM32F1_ESP8266_WebServer\RTE"-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_MD_VL-o .\objects\stm32_flash.o --omf_browse .\objects\stm32_flash.crf --depend .\objects\stm32_flash.d)
+I (.\MainCode\main.h)(0x592FAC62)
+I (.\Hardware_STM32\STM32_Timer_Library.h)(0x5926DA79)
+I (.\CMSIS_Startup\Startup\stm32f10x.h)(0x4BD132C4)
+I (.\CMSIS_Startup\Startup\core_cm3.h)(0x4D526588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E7666)
+I (.\CMSIS_Startup\CMSIS\system_stm32f10x.h)(0x4BD132C6)
+I (.\Hardware_STM32\ESP8266_AT.h)(0x591D20CF)
+I (.\Hardware_STM32\ESP8266_SendUart.h)(0x5906CE75)
+I (.\Hardware_STM32\STM32_Termistor_Library.h)(0x591D3FBB)
+I (.\Hardware_STM32\STM32_LightAndWaterRelay_Control.h)(0x591802E2)
+I (.\Hardware_STM32\STM32_Flash.h)(0x5926D89D)
+I (.\Hardware_STM32\74HC595_InitAndWork.h)(0x592FAA63)
+F (.\Hardware_STM32\STM32_Flash.h)(0x5926D89D)()
+F (.\Hardware_STM32\74HC595_InitAndWork.cpp)(0x592FD55E)(--cpp -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS_Startup\CMSIS\CoreSupport -I .\MainCode -I .\CMSIS_Startup\Startup -I .\CMSIS_Startup\CMSIS -I .\Hardware_STM32-I"C:\Users\Админ\Desktop\Google Drive\ARMProject\STM32F1_ESP8266_WebServer\RTE"-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_MD_VL-o .\objects\74hc595_initandwork.o --omf_browse .\objects\74hc595_initandwork.crf --depend .\objects\74hc595_initandwork.d)
+I (.\CMSIS_Startup\Startup\stm32f10x.h)(0x4BD132C4)
+I (.\CMSIS_Startup\Startup\core_cm3.h)(0x4D526588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x574E7666)
+I (.\CMSIS_Startup\CMSIS\system_stm32f10x.h)(0x4BD132C6)
+I (Hardware_STM32\STM32_Timer_Library.h)(0x5926DA79)
+F (.\Hardware_STM32\74HC595_InitAndWork.h)(0x592FAA63)()

@@ -1,0 +1,15 @@
+--cpu Cortex-M3
+".\objects\startup_stm32f10x_md_vl.o"
+".\objects\system_stm32f10x.o"
+".\objects\core_cm3.o"
+".\objects\main.o"
+".\objects\esp8266_at.o"
+".\objects\stm32_timer_library.o"
+".\objects\esp8266_senduart.o"
+".\objects\stm32_termistor_library.o"
+".\objects\stm32_lightandwaterrelay_control.o"
+".\objects\stm32_flash.o"
+".\objects\74hc595_initandwork.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Stm32F1_ESP8266.map" -o .\Objects\Stm32F1_ESP8266.axf

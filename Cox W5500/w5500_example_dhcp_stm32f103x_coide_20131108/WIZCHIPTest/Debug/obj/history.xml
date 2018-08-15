@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -g2 -Wall -O3 -c -DSTM32F100RBT6B -DSTM32F10X_MD -ID:\Google Диск\ARMProject\Cox W5500 -ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108\CoX -ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108\CoX\CoX_Peripheral -ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108\Internet -ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108\CoX\CoX_Peripheral\inc -ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108 -ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108\Internet\DHCP -ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108\Ethernet\W5500 -ID:\Google Диск\ARMProject\Cox W5500\w5500_example_dhcp_stm32f103x_coide_20131108\Ethernet">
+      <target file="syscalls.o" lastModified="15fd3c5ec8c">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="1410636ba80"/>
+      </target>
+      <target file="xcore.o" lastModified="15fd3c5e655">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xcore.c" lastModified="141c68ab0c0"/>
+      </target>
+      <target file="w5500.o" lastModified="15fd3c5ea2c">
+         <source file="..\..\..\Ethernet\W5500\w5500.c" lastModified="15e485ed4c0"/>
+      </target>
+      <target file="wizchip_conf.o" lastModified="15fd3c5e95d">
+         <source file="..\..\..\Ethernet\wizchip_conf.c" lastModified="15e485ed4c0"/>
+      </target>
+      <target file="xuart.o" lastModified="15fd3c5ef48">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xuart.c" lastModified="141c68ac830"/>
+      </target>
+      <target file="xdebug.o" lastModified="15fd3c5e588">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xdebug.c" lastModified="141c68aa8f0"/>
+      </target>
+      <target file="dhcp.o" lastModified="15fd3c5ee26">
+         <source file="..\..\..\Internet\DHCP\dhcp.c" lastModified="15e485ed4c0"/>
+      </target>
+      <target file="startup_coide.o" lastModified="15fd3c5e522">
+         <source file="..\..\..\startup_coide.c" lastModified="141c68ab890"/>
+      </target>
+      <target file="xspi.o" lastModified="15fd3c5ec08">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xspi.c" lastModified="141c68aa120"/>
+      </target>
+      <target file="socket.o" lastModified="15fd3c5e4b3">
+         <source file="..\..\..\Ethernet\socket.c" lastModified="15e485ed4c0"/>
+      </target>
+      <target file="xsysctl.o" lastModified="15fd3c5eb3a">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xsysctl.c" lastModified="141c68aa8f0"/>
+      </target>
+      <target file="xgpio.o" lastModified="15fd3c5e7b6">
+         <source file="..\..\..\CoX\CoX_Peripheral\src\xgpio.c" lastModified="141c68aa8f0"/>
+      </target>
+   </processor>
+</history>

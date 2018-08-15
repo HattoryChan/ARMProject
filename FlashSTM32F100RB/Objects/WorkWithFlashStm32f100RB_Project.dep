@@ -1,0 +1,23 @@
+Dependencies for Project 'WorkWithFlashStm32f100RB', Target 'Project': (DO NOT MODIFY !)
+F (.\MainCode\main.cpp)(0x58C177B9)(--cpp -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Startup -I .\MainCode-I"D:\Google Диск\ARMProject\FlashSTM32F100RB\RTE\_Project"-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_MD_VL-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\Startup\stm32f10x.h)(0x4BD132C4)
+I (.\Startup\core_cm3.h)(0x4D526588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F630E8)
+I (.\CMSIS\system_stm32f10x.h)(0x4BD132C6)
+I (MainCode\delay.h)(0x57EBA50B)
+I (MainCode\UsartInitAndRX_TXFUnction.h)(0x588D8EF2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x57F630E8)
+F (.\MainCode\delay.h)(0x57EBA50B)()
+F (.\MainCode\UsartInitAndRX_TXFUnction.h)(0x588D8EF2)()
+F (.\CMSIS\system_stm32f10x.c)(0x4BD132C6)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Startup -I .\MainCode-I"D:\Google Диск\ARMProject\FlashSTM32F100RB\RTE\_Project"-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_MD_VL-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (.\Startup\stm32f10x.h)(0x4BD132C4)
+I (.\Startup\core_cm3.h)(0x4D526588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F630E8)
+I (.\CMSIS\system_stm32f10x.h)(0x4BD132C6)
+F (.\CMSIS\system_stm32f10x.h)(0x4BD132C6)()
+F (.\CMSIS\CoreSupport\core_cm3.c)(0x4C0C82AE)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Startup -I .\MainCode-I"D:\Google Диск\ARMProject\FlashSTM32F100RB\RTE\_Project"-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F10X_MD_VL-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F630E8)
+F (.\CMSIS\CoreSupport\core_cm3.h)(0x4D526588)()
+F (.\Startup\core_cm3.h)(0x4D526588)()
+F (.\Startup\startup_stm32f10x_md_vl.s)(0x4D7866FE)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I"D:\Google Диск\ARMProject\FlashSTM32F100RB\RTE\_Project"-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 522" --pd "STM32F10X_MD_VL SETA 1"--list .\listings\startup_stm32f10x_md_vl.lst --xref -o .\objects\startup_stm32f10x_md_vl.o --depend .\objects\startup_stm32f10x_md_vl.d)
+F (.\Startup\stm32f10x.h)(0x4BD132C4)()

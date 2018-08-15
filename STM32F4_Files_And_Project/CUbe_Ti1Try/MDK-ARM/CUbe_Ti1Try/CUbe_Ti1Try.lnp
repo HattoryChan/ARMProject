@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"cube_ti1try\stm32f1xx_hal_flash.o"
+"cube_ti1try\stm32f1xx_hal_flash_ex.o"
+"cube_ti1try\stm32f1xx_hal.o"
+"cube_ti1try\stm32f1xx_hal_rcc_ex.o"
+"cube_ti1try\stm32f1xx_hal_rcc.o"
+"cube_ti1try\stm32f1xx_hal_cortex.o"
+"cube_ti1try\stm32f1xx_hal_gpio.o"
+"cube_ti1try\stm32f1xx_hal_gpio_ex.o"
+"cube_ti1try\stm32f1xx_hal_pwr.o"
+"cube_ti1try\stm32f1xx_hal_tim.o"
+"cube_ti1try\stm32f1xx_hal_dma.o"
+"cube_ti1try\stm32f1xx_hal_tim_ex.o"
+"cube_ti1try\system_stm32f1xx.o"
+"cube_ti1try\startup_stm32f100xb.o"
+"cube_ti1try\stm32f1xx_hal_msp.o"
+"cube_ti1try\main.o"
+"cube_ti1try\stm32f1xx_it.o"
+--library_type=microlib --strict --scatter "CUbe_Ti1Try\CUbe_Ti1Try.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "CUbe_Ti1Try.map" -o CUbe_Ti1Try\CUbe_Ti1Try.axf

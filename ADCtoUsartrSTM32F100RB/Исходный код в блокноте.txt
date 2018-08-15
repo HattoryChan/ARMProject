@@ -1,0 +1,177 @@
+#include "stm32f10x.h" 
+
+#include <stdio.h>        //sprintf()
+#include <stdlib.h>       //atoi
+
+/*================================================================
+This program will be Send ADC result to Usart
+PA[1] - ADC
+PA[9] - TX
+
+================================================================*/
+void USART1_Send(char chr);											//Send one chr sunction
+void USART1_Send_String(char* str);									//Send string function
+void delay(uint16_t sec);															//Delay in Second
+void VoltageToUsart(uint16_t);												//ADC on voltage to uart
+void BreakUint(uint16_t);														//Splits message and send to Uart
+
+
+
+void InitialAll()
+{
+//---------------------------- GpioA	
+																					//Clocking for USART1 and Port A
+  RCC->APB2ENR |= (RCC_APB2ENR_IOPAEN | RCC_APB2ENR_USART1EN); 
+																					// Usart Output
+																			// Port A[9] - output, 50Mhz. Alternative mode, push-pul
+																			// Mode9[1,1]  CNF[1,0]
+  GPIOA->CRH |= (GPIO_CRH_CNF9_1 | GPIO_CRH_MODE9); 
+																					// ADC input
+																			//PA[1]- input, Hi-z
+	GPIOA->CRL &= GPIO_CRL_MODE1;
+	GPIOA->CRL |= GPIO_CRL_CNF1_0;
+	
+//------------------------------------    ADC
+																										//Clocking ADC
+	RCC->APB2ENR |= RCC_APB2ENR_ADC1EN;
+																									//Calibration ADC
+																							//Start
+	ADC1->CR2 |= ADC_CR2_CAL;
+																				//Wait calibration ending
+	while(!(ADC1->CR2 & ADC_CR2_CAL)){}		//<---- This litle MAGIC
+	
+																//Set the sampling duration
+  ADC1->SMPR2 |= (ADC_SMPR2_SMP1_2 | ADC_SMPR2_SMP1_1 | ADC_SMPR2_SMP1_0);
+																						//Conversion of the injected group
+																	//Strart with set JSWSTART bit
+	ADC1->CR2 |= ADC_CR2_JEXTSEL;
+																	//Allow start external injected group
+	ADC1->CR2 |= ADC_CR2_JEXTTRIG;	
+																	//external start in series
+	ADC1->CR2 |= ADC_CR2_CONT;  		
+																	//Allow start injected group after regular group
+	ADC1->CR2 |= ADC_CR1_JAUTO;
+																	//Sets chanel Number(ADC1)
+	ADC1->JSQR |= (1<<15);	
+																	// Result >>
+	ADC1->CR2 &= ~ADC_CR2_ALIGN;
+
+//--------------------------------------		USART		
+																				//USART1 On
+  USART1->CR1 |= USART_CR1_UE; 
+																				//The dimension word - 8 bit
+  USART1->CR1 &= ~USART_CR1_M; 
+																				// Stop bit - 1
+  USART1->CR2 &= ~USART_CR2_STOP; 
+																				// Bit rate - 9600,Fbus = 25Mhz
+  USART1->BRR = 0xA2C; 
+																				//On for transfer USART1
+  USART1->CR1 |= USART_CR1_TE;  
+}
+
+//========================================  Main Function
+int main()
+{	
+	uint16_t ADC_Res;							// Adc Result value	
+	InitialAll();			
+	
+															//Calling function initialization
+//--------------------------------------------------- Check Usart Part
+															
+															//Cycle by send TXdata character on sendidg function.											
+   USART1_Send_String("Ready\r\n");
+															//Delay to check usart
+    delay(1);
+//----------------------------------------------------------- ADC on function
+	
+																		//ADC ON
+	ADC1->CR2 |= ADC_CR2_ADON;
+																	
+   USART1_Send_String("ADC ON\r\n");   
+while(1)
+	{
+		
+		//Start external
+	ADC1->CR2 |= ADC_CR2_JSWSTART;
+																	//Wait until the first external complited
+	while(!(ADC1->SR & ADC_SR_JEOC)){} //<------ THIS IS MAGIC
+		
+			
+																											
+	while(!(USART1->SR & USART_SR_TC)){};					//Verification of data transfer is complete	
+			ADC_Res = ADC1->JDR1;      									//12 bit Register = 4096 value
+    VoltageToUsart(ADC_Res);
+	    delay(1);		 
+	}
+}
+
+//======================================================== Splits message into two and send him to Uart
+void BreakUint(uint16_t ADC_Res)
+{
+	   uint8_t HiByteADC, LowByteADC;		//For Hi and Low byte ADC  
+     LowByteADC =	(ADC_Res & 0xFF);								//Make 2 mess Hi and Low byte
+    HiByteADC = ((ADC_Res & 0xFF00) >> 8);		
+																						
+																					//Send Data adc to uart on 2 message Dec
+		while(!(USART1->SR & USART_SR_TC)){};
+     USART1->DR = HiByteADC;
+	  while(!(USART1->SR & USART_SR_TC)){};							//Verification of data transfer is complete
+     USART1->DR = LowByteADC;   
+			USART1_Send_String("\r\n");
+}
+
+//======================================================= Get ADC message, counted him on voltage and send to Usart
+void VoltageToUsart(uint16_t ADC_Res)
+{
+	
+	uint16_t ToPoint, AfterPoint;		//For Hi and Low byte ADC
+	char mess[8];
+	double Volt,CalcToPoint, CalcAfterPoint;	
+		  	                  
+	    Volt = 0.000732421875*ADC_Res;   				 //ADC value to Voltage,[ADC to Voltage coefficient] * ADC_Res(data from ADC)
+		  
+		  CalcAfterPoint = modf(Volt,&CalcToPoint);    //To point part in CalcToPoint, After point part in CalcAfterPoint
+																										
+   		ToPoint = CalcToPoint;
+      AfterPoint = CalcAfterPoint*100;		       //4 numbers after point
+																												//Send Data
+		  sprintf(mess, "%d",ToPoint);							//To point value to char																					
+		  	USART1_Send_String(mess);
+		    USART1_Send('.');
+		  sprintf(mess, "%d", AfterPoint);					//To point value to char		
+		    USART1_Send_String(mess);
+           USART1_Send_String("\r\n");	
+}
+
+//=======================================================  Send TX One Char Function
+void USART1_Send(char chr)
+{
+																											//Verification of data transfer is complete
+	while(!(USART1->SR & USART_SR_TC));
+																												//Send Data
+	USART1->DR = chr;
+}
+
+//=========================================================  Send TX string Function
+void USART1_Send_String(char* str) 
+{
+ int i = 0;
+																								//Perfomed while i < str.lenght
+	while(str[i])
+																													//Send symbol str[i], next cycle - i+1
+		USART1_Send(str[i++]);	
+}
+
+
+//---------------------------------------------         Delay function (sec)
+void delay(uint16_t sec)
+{
+	uint32_t i;
+ for (; sec != 0; sec--)
+	{
+		for(i = 0x5B8D80; i !=0; i--);										// 1 second delay if Fmax = 72 Mhz
+	}
+}
+
+
+

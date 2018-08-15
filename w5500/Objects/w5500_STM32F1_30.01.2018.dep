@@ -1,0 +1,52 @@
+Dependencies for Project 'w5500_STM32F1', Target '30.01.2018': (DO NOT MODIFY !)
+F (.\main.c)(0x5A70AC9E)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\W5500\Ethernet\W5500 -I .\Library -I .\W5500\Ethernet -I .\W5500 -I ..\w5500 -I .\CMSIS\CoreSupport -I .\CMSIS -I .\CMSIS\Startup-I.\RTE\_30.01.2018-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD_VL-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (main.h)(0x5A708ADD)
+I (.\CMSIS\Startup\stm32f10x.h)(0x4BD132C4)
+I (.\CMSIS\Startup\core_cm3.h)(0x4D526588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BAD74)
+I (.\CMSIS\system_stm32f10x.h)(0x4BD132C6)
+I (.\Library\spi.h)(0x5A7095FE)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BAD74)
+I (.\W5500\Ethernet\socket.h)(0x54057588)
+I (.\W5500\Ethernet/wizchip_conf.h)(0x54057588)
+I (.\W5500\Ethernet/W5500/w5500.h)(0x54057588)
+F (.\main.h)(0x5A708ADD)()
+F (.\W5500\Ethernet\socket.c)(0x54057588)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\W5500\Ethernet\W5500 -I .\Library -I .\W5500\Ethernet -I .\W5500 -I ..\w5500 -I .\CMSIS\CoreSupport -I .\CMSIS -I .\CMSIS\Startup-I.\RTE\_30.01.2018-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD_VL-o .\objects\socket.o --omf_browse .\objects\socket.crf --depend .\objects\socket.d)
+I (W5500\Ethernet\socket.h)(0x54057588)
+I (.\W5500\Ethernet/wizchip_conf.h)(0x54057588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BAD74)
+I (.\W5500\Ethernet/W5500/w5500.h)(0x54057588)
+F (.\W5500\Ethernet\socket.h)(0x54057588)()
+F (.\W5500\Ethernet\wizchip_conf.c)(0x54057588)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\W5500\Ethernet\W5500 -I .\Library -I .\W5500\Ethernet -I .\W5500 -I ..\w5500 -I .\CMSIS\CoreSupport -I .\CMSIS -I .\CMSIS\Startup-I.\RTE\_30.01.2018-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD_VL-o .\objects\wizchip_conf.o --omf_browse .\objects\wizchip_conf.crf --depend .\objects\wizchip_conf.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x588BAD74)
+I (W5500\Ethernet\wizchip_conf.h)(0x54057588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BAD74)
+I (W5500\Ethernet\W5500/w5500.h)(0x54057588)
+I (.\W5500\Ethernet/wizchip_conf.h)(0x54057588)
+F (.\W5500\Ethernet\wizchip_conf.h)(0x54057588)()
+F (.\W5500\Ethernet\W5500\w5500.c)(0x54057588)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\W5500\Ethernet\W5500 -I .\Library -I .\W5500\Ethernet -I .\W5500 -I ..\w5500 -I .\CMSIS\CoreSupport -I .\CMSIS -I .\CMSIS\Startup-I.\RTE\_30.01.2018-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD_VL-o .\objects\w5500.o --omf_browse .\objects\w5500.crf --depend .\objects\w5500.d)
+I (W5500\Ethernet\W5500\w5500.h)(0x54057588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BAD74)
+I (.\W5500\Ethernet/wizchip_conf.h)(0x54057588)
+I (.\W5500\Ethernet/W5500/w5500.h)(0x54057588)
+F (.\W5500\Ethernet\W5500\w5500.h)(0x54057588)()
+F (.\Library\spi.c)(0x5A74A427)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\W5500\Ethernet\W5500 -I .\Library -I .\W5500\Ethernet -I .\W5500 -I ..\w5500 -I .\CMSIS\CoreSupport -I .\CMSIS -I .\CMSIS\Startup-I.\RTE\_30.01.2018-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD_VL-o .\objects\spi.o --omf_browse .\objects\spi.crf --depend .\objects\spi.d)
+I (Library\spi.h)(0x5A7095FE)
+I (.\CMSIS\Startup\stm32f10x.h)(0x4BD132C4)
+I (.\CMSIS\Startup\core_cm3.h)(0x4D526588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BAD74)
+I (.\CMSIS\system_stm32f10x.h)(0x4BD132C6)
+F (.\Library\spi.h)(0x5A7095FE)()
+F (.\Library\stm32f10x_conf.h)(0x52F33A9D)()
+F (.\CMSIS\system_stm32f10x.c)(0x4BD132C6)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\W5500\Ethernet\W5500 -I .\Library -I .\W5500\Ethernet -I .\W5500 -I ..\w5500 -I .\CMSIS\CoreSupport -I .\CMSIS -I .\CMSIS\Startup-I.\RTE\_30.01.2018-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD_VL-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (.\CMSIS\Startup\stm32f10x.h)(0x4BD132C4)
+I (.\CMSIS\Startup\core_cm3.h)(0x4D526588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BAD74)
+I (.\CMSIS\system_stm32f10x.h)(0x4BD132C6)
+F (.\CMSIS\system_stm32f10x.h)(0x4BD132C6)()
+F (.\CMSIS\CoreSupport\core_cm3.c)(0x4C0C82AE)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\W5500\Ethernet\W5500 -I .\Library -I .\W5500\Ethernet -I .\W5500 -I ..\w5500 -I .\CMSIS\CoreSupport -I .\CMSIS -I .\CMSIS\Startup-I.\RTE\_30.01.2018-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD_VL-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BAD74)
+F (.\CMSIS\CoreSupport\core_cm3.h)(0x4D526588)()
+F (.\CMSIS\Startup\startup_stm32f10x_md_vl.s)(0x4D7866FE)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_30.01.2018-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "STM32F10X_MD_VL SETA 1"--list .\listings\startup_stm32f10x_md_vl.lst --xref -o .\objects\startup_stm32f10x_md_vl.o --depend .\objects\startup_stm32f10x_md_vl.d)
+F (.\CMSIS\Startup\stm32f10x.h)(0x4BD132C4)()

@@ -1,0 +1,11 @@
+.\objects\gsmshieldsim900.o: Libriary\GSMShieldSIM900.cpp
+.\objects\gsmshieldsim900.o: .\StartUp\stm32f10x.h
+.\objects\gsmshieldsim900.o: .\StartUp\core_cm3.h
+.\objects\gsmshieldsim900.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gsmshieldsim900.o: .\CMSIS\system_stm32f10x.h
+.\objects\gsmshieldsim900.o: Libriary\Periphery_Init.h
+.\objects\gsmshieldsim900.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gsmshieldsim900.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\gsmshieldsim900.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\gsmshieldsim900.o: Libriary\delay.h
+.\objects\gsmshieldsim900.o: Libriary\GSMShieldSIM900.h

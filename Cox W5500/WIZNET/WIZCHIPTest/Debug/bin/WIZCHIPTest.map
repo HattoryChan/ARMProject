@@ -1,0 +1,678 @@
+
+Allocating common symbols
+Common symbol       size              file
+
+DHCP_CHADDR         0x6               ..\obj\dhcp.o
+DHCP_XID            0x4               ..\obj\dhcp.o
+gDATABUF            0x800             ..\obj\main.o
+DHCP_SIP            0x4               ..\obj\dhcp.o
+pDHCPMSG            0x4               ..\obj\dhcp.o
+DHCP_SOCKET         0x1               ..\obj\dhcp.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 ..\obj\xspi.o
+ .data          0x00000000        0x0 ..\obj\xgpio.o
+ .text          0x00000000      0x764 ..\obj\xcore.o
+ .data          0x00000000        0x0 ..\obj\xcore.o
+ .bss           0x00000000        0x0 ..\obj\xcore.o
+ .rodata        0x00000000       0x7c ..\obj\xcore.o
+ .debug_info    0x00000000      0x371 ..\obj\xcore.o
+ .debug_abbrev  0x00000000      0x13a ..\obj\xcore.o
+ .debug_loc     0x00000000      0x4cd ..\obj\xcore.o
+ .debug_aranges
+                0x00000000       0x20 ..\obj\xcore.o
+ .debug_line    0x00000000      0x3a5 ..\obj\xcore.o
+ .debug_str     0x00000000      0x2ca ..\obj\xcore.o
+ .comment       0x00000000       0x6f ..\obj\xcore.o
+ .debug_frame   0x00000000      0x274 ..\obj\xcore.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\xcore.o
+ .data          0x00000000        0x0 ..\obj\startup_coide.o
+ .bss           0x00000000        0x0 ..\obj\startup_coide.o
+ .text          0x00000000       0x68 ..\obj\syscalls.o
+ .data          0x00000000        0x0 ..\obj\syscalls.o
+ .bss           0x00000000        0x4 ..\obj\syscalls.o
+ .debug_info    0x00000000      0x48d ..\obj\syscalls.o
+ .debug_abbrev  0x00000000      0x12b ..\obj\syscalls.o
+ .debug_loc     0x00000000      0x17b ..\obj\syscalls.o
+ .debug_aranges
+                0x00000000       0x20 ..\obj\syscalls.o
+ .debug_line    0x00000000      0x1c8 ..\obj\syscalls.o
+ .debug_str     0x00000000      0x341 ..\obj\syscalls.o
+ .comment       0x00000000       0x6f ..\obj\syscalls.o
+ .debug_frame   0x00000000       0xac ..\obj\syscalls.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\syscalls.o
+ .text          0x00000000        0x0 ..\obj\xdebug.o
+ .data          0x00000000        0x0 ..\obj\xdebug.o
+ .bss           0x00000000        0x0 ..\obj\xdebug.o
+ .debug_line    0x00000000        0x0 ..\obj\xdebug.o
+ .debug_str     0x00000000       0xb4 ..\obj\xdebug.o
+ .comment       0x00000000       0x6f ..\obj\xdebug.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\xdebug.o
+ .text          0x00000000      0xc64 ..\obj\dhcp.o
+ .data          0x00000000       0x1c ..\obj\dhcp.o
+ .bss           0x00000000       0x20 ..\obj\dhcp.o
+ .rodata.str1.4
+                0x00000000       0x12 ..\obj\dhcp.o
+ .debug_info    0x00000000      0xd7f ..\obj\dhcp.o
+ .debug_abbrev  0x00000000      0x2cf ..\obj\dhcp.o
+ .debug_loc     0x00000000      0x782 ..\obj\dhcp.o
+ .debug_aranges
+                0x00000000       0x20 ..\obj\dhcp.o
+ .debug_ranges  0x00000000       0xd0 ..\obj\dhcp.o
+ .debug_line    0x00000000      0x6e7 ..\obj\dhcp.o
+ .debug_str     0x00000000      0x927 ..\obj\dhcp.o
+ .comment       0x00000000       0x6f ..\obj\dhcp.o
+ .debug_frame   0x00000000      0x274 ..\obj\dhcp.o
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\dhcp.o
+ COMMON         0x00000000       0x15 ..\obj\dhcp.o
+ .data          0x00000000        0x0 ..\obj\w5500.o
+ .bss           0x00000000        0x0 ..\obj\w5500.o
+ .data          0x00000000        0x0 ..\obj\xuart.o
+ .bss           0x00000000        0x0 ..\obj\printf.o
+ .bss           0x00000000        0x0 ..\obj\main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x00020000         xr
+ram              0x20000000         0x00002000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x20002000                _eram = 0x20002000
+
+.text           0x08000000     0x3a3c
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x154 ..\obj\startup_coide.o
+                0x08000000                g_pfnVectors
+ *(.text*)
+ .text          0x08000154      0x3bc ..\obj\xspi.o
+                0x08000154                SPI1IntHandler
+                0x080001ac                SPI2IntHandler
+                0x08000204                SPI3IntHandler
+                0x0800025c                xSPISSSet
+                0x08000290                SPIConfig
+                0x0800030c                SPISingleDataReadWrite
+                0x08000324                SPIDataRead
+                0x08000384                SPIDataWrite
+                0x080003d8                SPIDataPut
+                0x080003e8                SPIDataPutNonBlocking
+                0x080003f8                SPIDataGet
+                0x08000408                SPIDataGetNonBlocking
+                0x0800041c                SPIIntEnable
+                0x08000424                SPIIntCallbackInit
+                0x08000458                SPIIntFlagGet
+                0x0800045c                SPIIntFlagClear
+                0x08000468                SPIIsBusy
+                0x08000470                SPIDMAEnable
+                0x08000480                SPIDMADisable
+                0x0800048c                SPIIntDisable
+                0x08000490                SPIEnble
+                0x0800049c                SPIDisble
+                0x080004a8                SPISSIConfig
+                0x080004b8                SPISSOutputConfig
+                0x080004c8                SPISSModeConfig
+                0x080004d8                SPIIsTxEmpty
+                0x080004e0                SPIIsRxNotEmpty
+                0x080004e8                SPICRCPolSet
+                0x080004ec                SPICRCPolGet
+                0x080004f0                SPITXCRCGet
+                0x080004f4                SPIRxCRCGet
+                0x080004f8                SPICRCEnble
+                0x08000504                SPICRCDisble
+ .text          0x08000510      0x55c ..\obj\xgpio.o
+                0x08000510                EXTI0IntHandler
+                0x08000554                EXTI1IntHandler
+                0x08000598                EXTI2IntHandler
+                0x080005dc                EXTI3IntHandler
+                0x08000620                EXTI4IntHandler
+                0x08000664                EXTI95IntHandler
+                0x080006cc                EXTI1510IntHandler
+                0x08000754                GPIODirModeSet
+                0x0800079c                xGPIODirModeSet
+                0x080007d8                GPIODirModeGet
+                0x08000800                xGPIODirModeGet
+                0x0800081c                GPIOPinIntEnable
+                0x080008dc                GPIOPinIntDisable
+                0x080008ec                GPIOPinIntCallbackInit
+                0x08000928                GPIOPinIntStatus
+                0x08000934                GPIOPinIntClear
+                0x08000944                GPIOPinRead
+                0x0800094c                GPIOPortRead
+                0x08000950                GPIOPinWrite
+                0x08000968                GPIOPortWrite
+                0x0800096c                GPIOPinSet
+                0x08000970                GPIOPinReset
+                0x08000974                GPIOPinLockConfig
+                0x08000990                GPIOPinConfigure
+                0x08000a00                GPIOPinToPeripheralId
+ .text          0x08000a6c       0x60 ..\obj\startup_coide.o
+                0x08000a6c                TIM7IntHandler
+                0x08000a6c                ETHIntHandler
+                0x08000a6c                TIM1UPTIM10IntHandler
+                0x08000a6c                OTGFSWKUPIntHandler
+                0x08000a6c                TIM1CCIntHandler
+                0x08000a6c                TIM6IntHandler
+                0x08000a6c                DMA1Channel7IntHandler
+                0x08000a6c                TIM3IntHandler
+                0x08000a6c                DMA1Channel2IntHandler
+                0x08000a6c                DMA1Channel4IntHandler
+                0x08000a6c                CAN1RX0IntHandler
+                0x08000a6c                TIM8CCIntHandler
+                0x08000a6c                FSMCIntHandler
+                0x08000a6c                ETHWKUPIntHandler
+                0x08000a6c                ADC12IntHandler
+                0x08000a6c                WWDGIntHandler
+                0x08000a6c                PVDIntHandler
+                0x08000a6c                DMA1Channel6IntHandler
+                0x08000a6c                TIM4IntHandler
+                0x08000a6c                DMA2Channel1IntHandler
+                0x08000a6c                CAN2SCEIntHandler
+                0x08000a6c                CAN1TXIntHandler
+                0x08000a6c                DMA1Channel5IntHandler
+                0x08000a6c                RTCIntHandler
+                0x08000a6c                RTCAlarmIntHandler
+                0x08000a6c                TIM8TRGCOMTIM14IntHandler
+                0x08000a6c                HardFaultIntHandler
+                0x08000a6c                I2C2EVIntHandler
+                0x08000a6c                PendSVIntHandler
+                0x08000a6c                DMA2Channel2IntHandler
+                0x08000a6c                ADC3IntHandler
+                0x08000a6c                SysTickIntHandler
+                0x08000a6c                BusFaultIntHandler
+                0x08000a6c                NMIIntHandler
+                0x08000a6c                TIM2IntHandler
+                0x08000a6c                CAN2RX0IntHandler
+                0x08000a6c                FLASHIntHandler
+                0x08000a6c                TAMPERIntHandler
+                0x08000a6c                TIM5IntHandler
+                0x08000a6c                SDIOIntHandler
+                0x08000a6c                TIM1BRKTIM9IntHandler
+                0x08000a6c                CAN2TXIntHandler
+                0x08000a6c                CAN1SCEIntHandler
+                0x08000a6c                I2C1ERIntHandler
+                0x08000a6c                DMA2Channel3IntHandler
+                0x08000a6c                CAN2RX1IntHandler
+                0x08000a6c                DMA2Channel5IntHandler
+                0x08000a6c                UsageFaultIntHandler
+                0x08000a6c                MemManageIntHandler
+                0x08000a6c                CAN1RX1IntHandler
+                0x08000a6c                TIM1TRGCOMTIM11IntHandler
+                0x08000a6c                TIM8UPTIM13IntHandler
+                0x08000a6c                SVCIntHandler
+                0x08000a6c                DebugMonIntHandler
+                0x08000a6c                DMA1Channel1IntHandler
+                0x08000a6c                DMA1Channel3IntHandler
+                0x08000a6c                I2C2ERIntHandler
+                0x08000a6c                OTGFSIntHandler
+                0x08000a6c                DMA2Channel4IntHandler
+                0x08000a6c                TIM8BRKTIM12IntHandler
+                0x08000a6c                I2C1EVIntHandler
+                0x08000a70                Default_ResetHandler
+                0x08000a70                ResetHandler
+ .text          0x08000acc      0xbf8 ..\obj\socket.o
+                0x08000acc                close
+                0x08000b30                socket
+                0x08000c40                listen
+                0x08000cbc                connect
+                0x08000da8                disconnect
+                0x08000e30                send
+                0x08000f54                recv
+                0x08001034                sendto
+                0x08001190                recvfrom
+                0x0800137c                ctlsocket
+                0x08001454                setsockopt
+                0x08001578                getsockopt
+ .text          0x080016c4      0x680 ..\obj\wizchip_conf.o
+                0x080016c4                wizchip_cs_deselect
+                0x080016c8                wizchip_bus_readbyte
+                0x080016cc                wizchip_bus_writebyte
+                0x080016d0                wizchip_spi_readbyte
+                0x080016d4                wizchip_spi_writebyte
+                0x080016d8                wizchip_cs_select
+                0x080016dc                wizchip_cris_enter
+                0x080016e0                wizchip_cris_exit
+                0x080016e4                reg_wizchip_cris_cbfunc
+                0x08001708                reg_wizchip_cs_cbfunc
+                0x0800172c                reg_wizchip_bus_cbfunc
+                0x08001758                reg_wizchip_spi_cbfunc
+                0x08001784                wizchip_sw_reset
+                0x080017fc                wizchip_init
+                0x08001874                wizchip_clrinterrupt
+                0x08001894                wizchip_getinterrupt
+                0x080018b8                wizchip_setinterruptmask
+                0x080018d4                wizchip_getinterruptmask
+                0x080018f0                wizphy_getphylink
+                0x08001900                wizphy_getphypmode
+                0x08001918                wizphy_reset
+                0x08001948                wizphy_setphyconf
+                0x080019ac                wizphy_getphyconf
+                0x08001a14                wizphy_getphystat
+                0x08001a30                wizphy_setphypmode
+                0x08001a90                ctlwizchip
+                0x08001ba0                wizchip_setnetinfo
+                0x08001bf4                wizchip_getnetinfo
+                0x08001c48                wizchip_setnetmode
+                0x08001c70                wizchip_getnetmode
+                0x08001c78                wizchip_settimeout
+                0x08001ca0                wizchip_gettimeout
+                0x08001cc8                ctlnetwork
+ .text          0x08001d44      0x2ac ..\obj\w5500.o
+                0x08001d44                WIZCHIP_READ
+                0x08001d80                WIZCHIP_WRITE
+                0x08001dc0                WIZCHIP_READ_BUF
+                0x08001e10                WIZCHIP_WRITE_BUF
+                0x08001e64                getSn_TX_FSR
+                0x08001eb0                getSn_RX_RSR
+                0x08001efc                wiz_send_data
+                0x08001f58                wiz_recv_data
+                0x08001fb4                wiz_recv_ignore
+ .text          0x08001ff0      0x7e4 ..\obj\xsysctl.o
+                0x08001ff0                RCCIntHandler
+                0x08002014                RCCIntCallbackInit
+                0x08002020                SysCtlDelay
+                0x08002028                SysCtlPeripheralReset
+                0x08002054                SysCtlPeripheralEnable
+                0x08002074                SysCtlPeripheralDisable
+                0x08002098                xSysCtlPeripheralEnable2
+                0x080020fc                xSysCtlPeripheralDisable2
+                0x08002160                xSysCtlPeripheralReset2
+                0x080021a8                xSysCtlPeripheraIntNumGet
+                0x080021e8                SysCtlClockSet
+                0x080024a4                SysCtlIntEnable
+                0x080024b4                SysCtlIntDisable
+                0x080024c4                SysCtlIntFlagClear
+                0x080024d4                SysCtlIntFlagGet
+                0x080024e0                SysCtlResetFlagGet
+                0x080024f0                SysCtlResetFlagClear
+                0x08002500                SysCtlLSIConfig
+                0x08002524                SysCtlLSEConfig
+                0x08002544                SysCtlPeripheralClockSourceSet
+                0x0800261c                SysCtlReset
+                0x0800262c                SysCtlSleep
+                0x08002630                SysCtlBackupDomainReset
+                0x08002640                SysCtlHClockGet
+                0x080026c8                SysCtlAPB1ClockGet
+                0x080026e8                SysCtlAPB2ClockGet
+                0x08002708                SysCtlBackupAccessEnable
+                0x08002718                SysCtlBackupAccessDisable
+                0x08002728                SysCtlPVDLevelConfig
+                0x08002740                SysCtlWakeUpPinEnable
+                0x08002750                SysCtlWakeUpPinDisable
+                0x08002760                SysCtlStopModeConfig
+                0x08002788                SysCtlEnterStandbyMode
+                0x080027b0                SysCtlFlagStatusGet
+                0x080027c0                SysCtlFlagStatusClear
+ .text          0x080027d4      0x5c4 ..\obj\xuart.o
+                0x080027d4                USART1IntHandler
+                0x08002800                USART2IntHandler
+                0x0800282c                USART3IntHandler
+                0x08002858                UART4IntHandler
+                0x08002884                UART5IntHandler
+                0x080028b0                UARTParityModeSet
+                0x080028bc                UARTParityModeGet
+                0x080028c4                UARTConfigSet
+                0x080029b8                xUARTIrDAConfig
+                0x080029e0                UARTEnable
+                0x080029f0                UARTDisable
+                0x08002a08                UARTEnableIrDA
+                0x08002a24                UARTDisableIrDA
+                0x08002a30                UARTIrDAConfig
+                0x08002a7c                UARTEnableLIN
+                0x08002a98                UARTDisableLIN
+                0x08002aa4                UARTLINConfig
+                0x08002ad4                UARTCharGetNonBlocking
+                0x08002ae4                UARTCharGet
+                0x08002af0                UARTCharPutNonBlocking
+                0x08002b00                UARTCharPut
+                0x08002b0c                UARTBufferWrite
+                0x08002b28                UARTBreakCtl
+                0x08002b34                UARTIntEnable
+                0x08002bb4                UARTIntDisable
+                0x08002c34                UARTIntCallbackInit
+                0x08002c88                UARTIntStatus
+                0x08002c90                UARTIntClear
+                0x08002c98                UARTAddressSet
+                0x08002ca8                UARTWakeUpConfig
+                0x08002cb8                UARTGuardTimeSet
+                0x08002ccc                UARTHalfDuplexEnable
+                0x08002ce8                UARTHalfDuplexDisable
+                0x08002cf4                UARTSmartCardEnable
+                0x08002d40                UARTSmartCardDisable
+                0x08002d4c                UARTSynModeSet
+                0x08002d70                UARTSYNDisable
+                0x08002d7c                UARTModemControlSet
+                0x08002d84                UARTDMAEnable
+                0x08002d88                UARTModemControlClear
+                0x08002d94                UARTDMADisable
+ .text          0x08002d98      0x43c ..\obj\printf.o
+                0x08002d98                PrintChar
+                0x08002d9c                PutChar
+                0x08002da4                PutString
+                0x08002dc4                PutUnsignedInt
+                0x08002e18                PutSignedInt
+                0x08002ea8                PutHexa
+                0x08002f10                vsnprintf
+                0x08003078                snprintf
+                0x08003098                vsprintf
+                0x080030a4                vfprintf
+                0x080030f0                vprintf
+                0x08003104                fprintf
+                0x08003124                printf
+                0x0800314c                sprintf
+                0x0800316c                puts
+                0x08003180                fputc
+                0x0800319c                fputs
+ .text          0x080031d4      0x3e4 ..\obj\main.o
+                0x080031d4                wizchip_select
+                0x080031e4                wizchip_deselect
+                0x080031f4                wizchip_write
+                0x08003200                wizchip_read
+                0x08003214                network_init
+                0x080032bc                loopback_tcps
+                0x080033e0                loopback_udps
+                0x080034b0                platform_init
+ .text.startup  0x080035b8       0xb8 ..\obj\main.o
+                0x080035b8                main
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata        0x08003670        0x8 ..\obj\xgpio.o
+ .rodata        0x08003678      0x1f0 ..\obj\xsysctl.o
+ .rodata        0x08003868       0x10 ..\obj\main.o
+ .rodata.str1.4
+                0x08003878      0x1c4 ..\obj\main.o
+                                0x1c1 (size before relaxing)
+ *(.eh_fram e*)
+
+.glue_7         0x08003a3c        0x0
+ .glue_7        0x08003a3c        0x0 linker stubs
+
+.glue_7t        0x08003a3c        0x0
+ .glue_7t       0x08003a3c        0x0 linker stubs
+
+.vfp11_veneer   0x08003a3c        0x0
+ .vfp11_veneer  0x08003a3c        0x0 linker stubs
+
+.v4_bx          0x08003a3c        0x0
+ .v4_bx         0x08003a3c        0x0 linker stubs
+
+.iplt           0x08003a3c        0x0
+ .iplt          0x08003a3c        0x0 ..\obj\xspi.o
+
+.rel.dyn        0x08003a3c        0x0
+ .rel.iplt      0x08003a3c        0x0 ..\obj\xspi.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x08003a3c                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x08003a3c                __exidx_end = .
+                0x08003a3c                __etext = .
+                0x08003a3c                _sidata = __etext
+
+.data           0x20000000      0x488 load address 0x08003a3c
+                0x20000000                __data_start__ = .
+                0x20000000                _sdata = __data_start__
+ *(vtable)
+ *(.data*)
+ .data          0x20000000        0x2 ..\obj\socket.o
+ *fill*         0x20000002        0x2 
+ .data          0x20000004       0x20 ..\obj\wizchip_conf.o
+                0x20000004                WIZCHIP
+ .data          0x20000024       0x18 ..\obj\xsysctl.o
+ *fill*         0x2000003c        0x4 
+ .data          0x20000040      0x430 ..\obj\printf.o
+                0x20000040                _impure_ptr
+                0x20000048                r
+ .data          0x20000470       0x17 ..\obj\main.o
+                0x20000470                gWIZNETINFO
+                0x20000488                . = ALIGN (0x4)
+ *fill*         0x20000487        0x1 
+                [!provide]                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                [!provide]                PROVIDE (__preinit_array_end, .)
+                0x20000488                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                [!provide]                PROVIDE (__init_array_end, .)
+                0x20000488                . = ALIGN (0x4)
+                [!provide]                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                [!provide]                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+                0x20000488                . = ALIGN (0x4)
+                0x20000488                __data_end__ = .
+                0x20000488                _edata = __data_end__
+
+.igot.plt       0x20000488        0x0 load address 0x08003ec4
+ .igot.plt      0x20000488        0x0 ..\obj\xspi.o
+
+.bss            0x20000488      0x88c load address 0x08003ec4
+                0x20000488                . = ALIGN (0x4)
+                0x20000488                __bss_start__ = .
+                0x20000488                _sbss = __bss_start__
+ *(.bss*)
+ .bss           0x20000488        0xc ..\obj\xspi.o
+ .bss           0x20000494       0x40 ..\obj\xgpio.o
+ .bss           0x200004d4       0x1e ..\obj\socket.o
+ *fill*         0x200004f2        0x2 
+ .bss           0x200004f4        0x5 ..\obj\wizchip_conf.o
+ *fill*         0x200004f9        0x3 
+ .bss           0x200004fc        0x4 ..\obj\xsysctl.o
+ .bss           0x20000500       0x14 ..\obj\xuart.o
+ *(COMMON)
+ COMMON         0x20000514      0x800 ..\obj\main.o
+                0x20000514                gDATABUF
+                0x20000d14                . = ALIGN (0x4)
+                0x20000d14                __bss_end__ = .
+                0x20000d14                _ebss = __bss_end__
+
+.heap           0x20000d14        0x0
+                0x20000d14                __end__ = .
+                0x20000d14                _end = __end__
+                0x20000d14                end = __end__
+ *(.heap*)
+                0x20000d14                __HeapLimit = .
+
+.co_stack       0x20000d14      0x404 load address 0x08004750
+                0x20000d18                . = ALIGN (0x8)
+ *fill*         0x20000d14        0x4 
+ *(.co_stack .co_stack.*)
+ .co_stack      0x20000d18      0x400 ..\obj\startup_coide.o
+                0x20000d18                pulStack
+                0x20002000                __StackTop = (ORIGIN (ram) + LENGTH (ram))
+                0x20001bfc                __StackLimit = (__StackTop - SIZEOF (.co_stack))
+                [!provide]                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region ram  overflowed with stack)
+LOAD ..\obj\xspi.o
+LOAD ..\obj\xgpio.o
+LOAD ..\obj\xcore.o
+LOAD ..\obj\startup_coide.o
+LOAD ..\obj\socket.o
+LOAD ..\obj\syscalls.o
+LOAD ..\obj\xdebug.o
+LOAD ..\obj\dhcp.o
+LOAD ..\obj\wizchip_conf.o
+LOAD ..\obj\w5500.o
+LOAD ..\obj\xsysctl.o
+LOAD ..\obj\xuart.o
+LOAD ..\obj\printf.o
+LOAD ..\obj\main.o
+START GROUP
+LOAD d:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a
+LOAD d:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a
+LOAD d:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a
+END GROUP
+START GROUP
+LOAD d:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/armv7-m\libgcc.a
+LOAD d:/program files (x86)/gnu tools arm embedded/5.4 2016q3/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libc_nano.a
+END GROUP
+OUTPUT(WIZCHIPTest.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x70b9
+ .debug_info    0x00000000      0x869 ..\obj\xspi.o
+ .debug_info    0x00000869      0x8fe ..\obj\xgpio.o
+ .debug_info    0x00001167      0x11d ..\obj\startup_coide.o
+ .debug_info    0x00001284     0x113b ..\obj\socket.o
+ .debug_info    0x000023bf     0x1237 ..\obj\wizchip_conf.o
+ .debug_info    0x000035f6      0x7c2 ..\obj\w5500.o
+ .debug_info    0x00003db8      0x816 ..\obj\xsysctl.o
+ .debug_info    0x000045ce      0xa40 ..\obj\xuart.o
+ .debug_info    0x0000500e     0x137f ..\obj\printf.o
+ .debug_info    0x0000638d      0xd2c ..\obj\main.o
+
+.debug_abbrev   0x00000000     0x1650
+ .debug_abbrev  0x00000000      0x1e0 ..\obj\xspi.o
+ .debug_abbrev  0x000001e0      0x21b ..\obj\xgpio.o
+ .debug_abbrev  0x000003fb       0xc9 ..\obj\startup_coide.o
+ .debug_abbrev  0x000004c4      0x193 ..\obj\socket.o
+ .debug_abbrev  0x00000657      0x3ab ..\obj\wizchip_conf.o
+ .debug_abbrev  0x00000a02      0x218 ..\obj\w5500.o
+ .debug_abbrev  0x00000c1a      0x23e ..\obj\xsysctl.o
+ .debug_abbrev  0x00000e58      0x1c7 ..\obj\xuart.o
+ .debug_abbrev  0x0000101f      0x3b7 ..\obj\printf.o
+ .debug_abbrev  0x000013d6      0x27a ..\obj\main.o
+
+.debug_loc      0x00000000     0x51b7
+ .debug_loc     0x00000000      0x4e1 ..\obj\xspi.o
+ .debug_loc     0x000004e1      0x895 ..\obj\xgpio.o
+ .debug_loc     0x00000d76       0x3e ..\obj\startup_coide.o
+ .debug_loc     0x00000db4     0x1245 ..\obj\socket.o
+ .debug_loc     0x00001ff9      0xbc6 ..\obj\wizchip_conf.o
+ .debug_loc     0x00002bbf      0x55a ..\obj\w5500.o
+ .debug_loc     0x00003119      0x7c9 ..\obj\xsysctl.o
+ .debug_loc     0x000038e2      0x647 ..\obj\xuart.o
+ .debug_loc     0x00003f29      0xf86 ..\obj\printf.o
+ .debug_loc     0x00004eaf      0x308 ..\obj\main.o
+
+.debug_aranges  0x00000000      0x148
+ .debug_aranges
+                0x00000000       0x20 ..\obj\xspi.o
+ .debug_aranges
+                0x00000020       0x20 ..\obj\xgpio.o
+ .debug_aranges
+                0x00000040       0x20 ..\obj\startup_coide.o
+ .debug_aranges
+                0x00000060       0x20 ..\obj\socket.o
+ .debug_aranges
+                0x00000080       0x20 ..\obj\wizchip_conf.o
+ .debug_aranges
+                0x000000a0       0x20 ..\obj\w5500.o
+ .debug_aranges
+                0x000000c0       0x20 ..\obj\xsysctl.o
+ .debug_aranges
+                0x000000e0       0x20 ..\obj\xuart.o
+ .debug_aranges
+                0x00000100       0x20 ..\obj\printf.o
+ .debug_aranges
+                0x00000120       0x28 ..\obj\main.o
+
+.debug_ranges   0x00000000      0x130
+ .debug_ranges  0x00000000       0x50 ..\obj\xspi.o
+ .debug_ranges  0x00000050       0x18 ..\obj\socket.o
+ .debug_ranges  0x00000068       0x18 ..\obj\xuart.o
+ .debug_ranges  0x00000080       0x98 ..\obj\printf.o
+ .debug_ranges  0x00000118       0x18 ..\obj\main.o
+
+.debug_line     0x00000000     0x1ed0
+ .debug_line    0x00000000      0x269 ..\obj\xspi.o
+ .debug_line    0x00000269      0x2c2 ..\obj\xgpio.o
+ .debug_line    0x0000052b       0x7a ..\obj\startup_coide.o
+ .debug_line    0x000005a5      0x514 ..\obj\socket.o
+ .debug_line    0x00000ab9      0x42c ..\obj\wizchip_conf.o
+ .debug_line    0x00000ee5      0x245 ..\obj\w5500.o
+ .debug_line    0x0000112a      0x33d ..\obj\xsysctl.o
+ .debug_line    0x00001467      0x302 ..\obj\xuart.o
+ .debug_line    0x00001769      0x383 ..\obj\printf.o
+ .debug_line    0x00001aec      0x3e4 ..\obj\main.o
+
+.debug_str      0x00000000     0x1fb5
+ .debug_str     0x00000000      0x39b ..\obj\xspi.o
+                                0x3c5 (size before relaxing)
+ .debug_str     0x0000039b      0x2aa ..\obj\xgpio.o
+                                0x37a (size before relaxing)
+ .debug_str     0x00000645       0xae ..\obj\startup_coide.o
+                                0x132 (size before relaxing)
+ .debug_str     0x000006f3      0x37f ..\obj\socket.o
+                                0x47b (size before relaxing)
+ .debug_str     0x00000a72      0x658 ..\obj\wizchip_conf.o
+                                0x819 (size before relaxing)
+ .debug_str     0x000010ca       0x95 ..\obj\w5500.o
+                                0x2b5 (size before relaxing)
+ .debug_str     0x0000115f      0x4a3 ..\obj\xsysctl.o
+                                0x590 (size before relaxing)
+ .debug_str     0x00001602      0x3c6 ..\obj\xuart.o
+                                0x4e9 (size before relaxing)
+ .debug_str     0x000019c8      0x4fd ..\obj\printf.o
+                                0x66e (size before relaxing)
+ .debug_str     0x00001ec5       0xf0 ..\obj\main.o
+                                0x59d (size before relaxing)
+
+.comment        0x00000000       0x6e
+ .comment       0x00000000       0x6e ..\obj\xspi.o
+                                 0x6f (size before relaxing)
+ .comment       0x0000006e       0x6f ..\obj\xgpio.o
+ .comment       0x0000006e       0x6f ..\obj\startup_coide.o
+ .comment       0x0000006e       0x6f ..\obj\socket.o
+ .comment       0x0000006e       0x6f ..\obj\wizchip_conf.o
+ .comment       0x0000006e       0x6f ..\obj\w5500.o
+ .comment       0x0000006e       0x6f ..\obj\xsysctl.o
+ .comment       0x0000006e       0x6f ..\obj\xuart.o
+ .comment       0x0000006e       0x6f ..\obj\printf.o
+ .comment       0x0000006e       0x6f ..\obj\main.o
+
+.ARM.attributes
+                0x00000000       0x33
+ .ARM.attributes
+                0x00000000       0x33 ..\obj\xspi.o
+ .ARM.attributes
+                0x00000033       0x33 ..\obj\xgpio.o
+ .ARM.attributes
+                0x00000066       0x33 ..\obj\startup_coide.o
+ .ARM.attributes
+                0x00000099       0x33 ..\obj\socket.o
+ .ARM.attributes
+                0x000000cc       0x33 ..\obj\wizchip_conf.o
+ .ARM.attributes
+                0x000000ff       0x33 ..\obj\w5500.o
+ .ARM.attributes
+                0x00000132       0x33 ..\obj\xsysctl.o
+ .ARM.attributes
+                0x00000165       0x33 ..\obj\xuart.o
+ .ARM.attributes
+                0x00000198       0x33 ..\obj\printf.o
+ .ARM.attributes
+                0x000001cb       0x33 ..\obj\main.o
+
+.debug_frame    0x00000000     0x15b4
+ .debug_frame   0x00000000      0x2a0 ..\obj\xspi.o
+ .debug_frame   0x000002a0      0x294 ..\obj\xgpio.o
+ .debug_frame   0x00000534       0x30 ..\obj\startup_coide.o
+ .debug_frame   0x00000564      0x290 ..\obj\socket.o
+ .debug_frame   0x000007f4      0x33c ..\obj\wizchip_conf.o
+ .debug_frame   0x00000b30      0x168 ..\obj\w5500.o
+ .debug_frame   0x00000c98      0x2a0 ..\obj\xsysctl.o
+ .debug_frame   0x00000f38      0x330 ..\obj\xuart.o
+ .debug_frame   0x00001268      0x248 ..\obj\printf.o
+ .debug_frame   0x000014b0      0x104 ..\obj\main.o

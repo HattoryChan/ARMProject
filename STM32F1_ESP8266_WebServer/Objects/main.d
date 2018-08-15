@@ -1,0 +1,14 @@
+.\objects\main.o: MainCode\main.cpp
+.\objects\main.o: MainCode\main.h
+.\objects\main.o: .\Hardware_STM32\STM32_Timer_Library.h
+.\objects\main.o: .\CMSIS_Startup\Startup\stm32f10x.h
+.\objects\main.o: .\CMSIS_Startup\Startup\core_cm3.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: .\CMSIS_Startup\CMSIS\system_stm32f10x.h
+.\objects\main.o: .\Hardware_STM32\ESP8266_AT.h
+.\objects\main.o: .\Hardware_STM32\ESP8266_SendUart.h
+.\objects\main.o: .\Hardware_STM32\STM32_Termistor_Library.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\main.o: .\Hardware_STM32\STM32_LightAndWaterRelay_Control.h
+.\objects\main.o: .\Hardware_STM32\STM32_Flash.h
+.\objects\main.o: .\Hardware_STM32\74HC595_InitAndWork.h

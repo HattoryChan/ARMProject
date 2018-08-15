@@ -1,0 +1,14 @@
+Dependencies for Project 'ButtonLedForSmt32', Target 'LedOnSmt': (DO NOT MODIFY !)
+F (.\CMSIS\DeviceSupport\ST\STM32F10x\startup\arm\startup_stm32f10x_cl.s)(0x4D786710)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_LedOnSmt-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_cl.lst --xref -o .\objects\startup_stm32f10x_cl.o --depend .\objects\startup_stm32f10x_cl.d)
+F (.\CMSIS\CoreSupport\core_cm3.c)(0x4C0C82AE)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS\CoreSupport -I .\CMSIS\DeviceSupport\ST\STM32F10x-I.\RTE\_LedOnSmt-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BAD74)
+F (.\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.c)(0x4D7866E0)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS\CoreSupport -I .\CMSIS\DeviceSupport\ST\STM32F10x-I.\RTE\_LedOnSmt-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x4D7866E4)
+I (.\CMSIS\CoreSupport\core_cm3.h)(0x4D526588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BAD74)
+I (CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D7866DA)
+F (.\Main\main.c)(0x5A087CE0)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS\CoreSupport -I .\CMSIS\DeviceSupport\ST\STM32F10x-I.\RTE\_LedOnSmt-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\CMSIS\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x4D7866E4)
+I (.\CMSIS\CoreSupport\core_cm3.h)(0x4D526588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BAD74)
+I (.\CMSIS\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D7866DA)

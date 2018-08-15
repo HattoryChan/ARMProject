@@ -1,0 +1,16 @@
+.\objects\tasks.o: FReeRTOS_STM32f100RB\tasks.c
+.\objects\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\tasks.o: .\FReeRTOS_STM32f100RB\include\FreeRTOS.h
+.\objects\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\tasks.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\tasks.o: .\FReeRTOS_STM32f100RB\include\FreeRTOSConfig.h
+.\objects\tasks.o: .\FReeRTOS_STM32f100RB\include\projdefs.h
+.\objects\tasks.o: .\FReeRTOS_STM32f100RB\include\portable.h
+.\objects\tasks.o: .\FReeRTOS_STM32f100RB\include\deprecated_definitions.h
+.\objects\tasks.o: .\FReeRTOS_STM32f100RB\include\portmacro.h
+.\objects\tasks.o: .\FReeRTOS_STM32f100RB\include\mpu_wrappers.h
+.\objects\tasks.o: .\FReeRTOS_STM32f100RB\include\task.h
+.\objects\tasks.o: .\FReeRTOS_STM32f100RB\include\list.h
+.\objects\tasks.o: .\FReeRTOS_STM32f100RB\include\timers.h
+.\objects\tasks.o: .\FReeRTOS_STM32f100RB\include\StackMacros.h

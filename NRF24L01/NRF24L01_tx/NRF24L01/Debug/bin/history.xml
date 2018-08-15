@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=NRF24L01.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\NRF24L01 -TC:\CooCox\CoIDE\configuration\ProgramData\NRF24L01/link.ld -g">
+      <target file="NRF24L01.elf" lastModified="13eec3e2a4a">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="13eec3e267b"/>
+         <source file="..\obj\main.o" lastModified="13eec3e26c6"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="13eec3e2718"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="13eec3e2753"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="13eec3e2784"/>
+         <source file="..\obj\syscalls.o" lastModified="13eec3e27af"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="13eec3e27f6"/>
+         <source file="..\obj\misc.o" lastModified="13eec3e2825"/>
+         <source file="..\obj\nrf24l01p.o" lastModified="13eec3e287b"/>
+      </target>
+   </processor>
+</history>

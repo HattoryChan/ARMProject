@@ -1,0 +1,22 @@
+Dependencies for Project 'Stm32F100RBHScr-04', Target 'Stm32F100Rb': (DO NOT MODIFY !)
+F (.\MainCode\main.c)(0x5A6F859A)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Startup-I.\RTE\_Stm32F100Rb-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD_VL-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\Startup\stm32f10x.h)(0x4BD132C4)
+I (.\Startup\core_cm3.h)(0x4D526588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BAD74)
+I (.\CMSIS\system_stm32f10x.h)(0x4BD132C6)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588BAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x588BAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BAD74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588BAD74)
+F (.\CMSIS\system_stm32f10x.c)(0x4BD132C6)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Startup-I.\RTE\_Stm32F100Rb-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD_VL-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (.\Startup\stm32f10x.h)(0x4BD132C4)
+I (.\Startup\core_cm3.h)(0x4D526588)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BAD74)
+I (.\CMSIS\system_stm32f10x.h)(0x4BD132C6)
+F (.\CMSIS\system_stm32f10x.h)(0x4BD132C6)()
+F (.\CMSIS\CoreSupport\core_cm3.c)(0x4C0C82AE)(-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\CMSIS -I .\Startup-I.\RTE\_Stm32F100Rb-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_MD_VL-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BAD74)
+F (.\CMSIS\CoreSupport\core_cm3.h)(0x4D526588)()
+F (.\Startup\core_cm3.h)(0x4D526588)()
+F (.\Startup\startup_stm32f10x_md_vl.s)(0x4D7866FE)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Stm32F100Rb-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "STM32F10X_MD_VL SETA 1"--list .\listings\startup_stm32f10x_md_vl.lst --xref -o .\objects\startup_stm32f10x_md_vl.o --depend .\objects\startup_stm32f10x_md_vl.d)
+F (.\Startup\stm32f10x.h)(0x4BD132C4)()

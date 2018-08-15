@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<!-- saved from url=(0086)http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function#tcp_server -->
+<html lang="en" dir="ltr" class="js desktop"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>products:w5500:application:tcp_function [Document Wiki]</title>
+    <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+    <meta name="generator" content="DokuWiki">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="products,w5500,application,tcp_function">
+<link rel="search" type="application/opensearchdescription+xml" href="http://wizwiki.net/wiki/lib/exe/opensearch.php" title="&lt;h1&gt;Document Wiki&lt;/h1&gt;">
+<link rel="start" href="http://wizwiki.net/wiki/">
+<link rel="contents" href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function&amp;do=index" title="Sitemap">
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="http://wizwiki.net/wiki/feed.php">
+<link rel="alternate" type="application/rss+xml" title="Current namespace" href="http://wizwiki.net/wiki/feed.php?mode=list&amp;ns=products:w5500:application">
+<link rel="alternate" type="text/html" title="Plain HTML" href="http://wizwiki.net/wiki/doku.php?do=export_xhtml&amp;id=products:w5500:application:tcp_function">
+<link rel="alternate" type="text/plain" title="Wiki Markup" href="http://wizwiki.net/wiki/doku.php?do=export_raw&amp;id=products:w5500:application:tcp_function">
+<link rel="canonical" href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function">
+<link rel="stylesheet" type="text/css" href="./products_w5500_application_tcp_function [Document Wiki]_files/css.php">
+<!--[if gte IE 9]><!-->
+<script type="text/javascript">/*<![CDATA[*/var NS='products:w5500:application';var JSINFO = {"id":"products:w5500:application:tcp_function","namespace":"products:w5500:application","plugin_folded":{"hide":"hide","reveal":"reveal"},"isadmin":0,"isauth":0};
+/*!]]>*/</script>
+<script type="text/javascript" charset="utf-8" src="./products_w5500_application_tcp_function [Document Wiki]_files/jquery.php"></script>
+<script type="text/javascript" charset="utf-8" src="./products_w5500_application_tcp_function [Document Wiki]_files/js.php"></script><style type="text/css" media="screen"><!--/*--><![CDATA[/*><!--*/ .folded.hidden { display: none; } .folder .indicator { visibility: visible; } /*]]>*/--></style><style id="iris-css">.iris-picker{display:block;position:relative}.iris-picker,.iris-picker *{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input+.iris-picker{margin-top:4px}.iris-error{background-color:#ffafaf}.iris-border{border-radius:3px;border:1px solid #aaa;width:200px;background-color:#fff}.iris-picker-inner{position:absolute;top:0;right:0;left:0;bottom:0}.iris-border .iris-picker-inner{top:10px;right:10px;left:10px;bottom:10px}.iris-picker .iris-square-inner{position:absolute;left:0;right:0;top:0;bottom:0}.iris-picker .iris-square,.iris-picker .iris-slider,.iris-picker .iris-square-inner,.iris-picker .iris-palette{border-radius:3px;box-shadow:inset 0 0 5px rgba(0,0,0,.4);height:100%;width:12.5%;float:left;margin-right:5%}.iris-picker .iris-square{width:76%;margin-right:10%;position:relative}.iris-picker .iris-square-inner{width:auto;margin:0}.iris-ie-9 .iris-square,.iris-ie-9 .iris-slider,.iris-ie-9 .iris-square-inner,.iris-ie-9 .iris-palette{box-shadow:none;border-radius:0}.iris-ie-9 .iris-square,.iris-ie-9 .iris-slider,.iris-ie-9 .iris-palette{outline:1px solid rgba(0,0,0,.1)}.iris-ie-lt9 .iris-square,.iris-ie-lt9 .iris-slider,.iris-ie-lt9 .iris-square-inner,.iris-ie-lt9 .iris-palette{outline:1px solid #aaa}.iris-ie-lt9 .iris-square .ui-slider-handle{outline:1px solid #aaa;background-color:#fff;-ms-filter:"alpha(Opacity=30)"}.iris-ie-lt9 .iris-square .iris-square-handle{background:0;border:3px solid #fff;-ms-filter:"alpha(Opacity=50)"}.iris-picker .iris-strip{margin-right:0;position:relative}.iris-picker .iris-strip .ui-slider-handle{position:absolute;background:0;margin:0;right:-3px;left:-3px;border:4px solid #aaa;border-width:4px 3px;width:auto;height:6px;border-radius:4px;box-shadow:0 1px 2px rgba(0,0,0,.2);opacity:.9;z-index:5;cursor:ns-resize}.iris-strip .ui-slider-handle:before{content:" ";position:absolute;left:-2px;right:-2px;top:-3px;bottom:-3px;border:2px solid #fff;border-radius:3px}.iris-picker .iris-slider-offset{position:absolute;top:11px;left:0;right:0;bottom:-3px;width:auto;height:auto;background:transparent;border:0;border-radius:0}.iris-picker .iris-square-handle{background:transparent;border:5px solid #aaa;border-radius:50%;border-color:rgba(128,128,128,.5);box-shadow:none;width:12px;height:12px;position:absolute;left:-10px;top:-10px;cursor:move;opacity:1;z-index:10}.iris-picker .ui-state-focus .iris-square-handle{opacity:.8}.iris-picker .iris-square-handle:hover{border-color:#999}.iris-picker .iris-square-value:focus .iris-square-handle{box-shadow:0 0 2px rgba(0,0,0,.75);opacity:.8}.iris-picker .iris-square-handle:hover::after{border-color:#fff}.iris-picker .iris-square-handle::after{position:absolute;bottom:-4px;right:-4px;left:-4px;top:-4px;border:3px solid #f9f9f9;border-color:rgba(255,255,255,.8);border-radius:50%;content:" "}.iris-picker .iris-square-value{width:8px;height:8px;position:absolute}.iris-ie-lt9 .iris-square-value,.iris-mozilla .iris-square-value{width:1px;height:1px}.iris-palette-container{position:absolute;bottom:0;left:0;margin:0;padding:0}.iris-border .iris-palette-container{left:10px;bottom:10px}.iris-picker .iris-palette{margin:0;cursor:pointer}.iris-square-handle,.ui-slider-handle{border:0;outline:0}</style>
+<!--<![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="http://wizwiki.net/wiki/lib/exe/fetch.php?media=favicon.ico">
+<link rel="apple-touch-icon" href="http://wizwiki.net/wiki/lib/tpl/dokuwiki/images/apple-touch-icon.png">
+    <style type="text/css">/*.lleo_errorSelection *::-moz-selection,
+.lleo_errorSelection *::selection,
+.lleo_errorSelection *::-webkit-selection {
+    background-color: red !important;
+    color: #fff !important;;
+}*/
+
+#lleo_dialog,
+#lleo_dialog * {
+    color: #000 !important;
+    font: normal 13px Arial, Helvetica !important;
+    line-height: 15px !important;
+    margin: 0 !important;
+	padding: 0 !important;
+	background: none !important;
+	border: none 0 !important;
+	position: static !important;
+	vertical-align: baseline !important;
+	overflow: visible !important;
+	width: auto !important;
+	height: auto !important;
+    max-width: none !important;
+    max-height: none !important;
+	float: none !important;
+	visibility: visible !important;
+	text-align: left !important;
+    text-transform: none !important;
+	border-collapse: separate !important;
+	border-spacing: 2px !important;
+    box-sizing: content-box !important;
+    box-shadow: none !important;
+    opacity: 1 !important;
+    text-shadow: none !important;
+    letter-spacing: normal !important;
+    -webkit-filter: none !important;
+    -moz-filter: none !important;
+    filter: none !important;
+}
+#lleo_dialog *:before,
+#lleo_dialog *:after {
+    content: '';
+}
+
+#lleo_dialog iframe {
+	height: 0 !important;
+	width: 0 !important;
+}
+
+#lleo_dialog {
+    position: absolute !important;
+    background: #fff !important;
+    border: solid 1px #ccc !important;
+    padding: 7px 0 0 !important;
+    left: -999px;
+    top: -999px;
+    width: 440px !important;
+    overflow: hidden;
+    display: block !important;
+    z-index: 999999999 !important;
+    box-shadow: 8px 16px 30px rgba(0, 0, 0, 0.16) !important;
+    border-radius: 3px !important;
+    opacity: 0 !important;
+    -webkit-transform: translateY(15px);
+    -moz-transform: translateY(15px);
+    -ms-transform: translateY(15px);
+    -o-transform: translateY(15px);
+    transform: translateY(15px);
+}
+#lleo_dialog.lleo_show_small {
+    width: 150px !important;
+}
+#lleo_dialog.lleo_show {
+    opacity: 1 !important;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.3s !important;
+    -moz-transition: -moz-transform 0.3s, opacity 0.3s !important;
+    -ms-transition: -ms-transform 0.3s, opacity 0.3s !important;
+    -o-transition: -o-transform 0.3s, opacity 0.3s !important;
+    transition: transform 0.3s, opacity 0.3s !important;
+}
+#lleo_dialog.lleo_collapse {
+    opacity: 0 !important;
+    -webkit-transform: scale(0.25, 0.1) translate(-550px, 100px);
+    -moz-transform: scale(0.25, 0.1) translate(-550px, 100px);
+    -ms-transform: scale(0.25, 0.1) translate(-550px, 100px);
+    -o-transform: scale(0.25, 0.1) translate(-550px, 100px);
+    transform: scale(0.25, 0.1) translate(-550px, 100px);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.4s !important;
+    -moz-transition: -moz-transform 0.4s, opacity 0.4s !important;
+    -ms-transition: -ms-transform 0.4s, opacity 0.4s !important;
+    -o-transition: -o-transform 0.4s, opacity 0.4s !important;
+    transition: transform 0.4s, opacity 0.4s !important;
+}
+#lleo_dialog input::-webkit-input-placeholder {
+    color: #aaa !important;
+}
+#lleo_dialog .lleo_has_pic #lleo_word {
+	margin-right: 80px !important;
+}
+#lleo_dialog #lleo_translationsContainer1 {
+	position: relative !important;
+}
+#lleo_dialog #lleo_translationsContainer2 {
+	padding: 7px 0 0 !important;
+	vertical-align: middle !important;
+}
+#lleo_dialog #lleo_word {
+    color: #000 !important;
+    margin: 0 5px 2px 0 !important;
+    /*float: left !important;*/
+}
+#lleo_dialog .lleo_has_sound #lleo_word {
+    margin-left: 30px !important;
+}
+#lleo_dialog #lleo_text {
+    font-weight: bold !important;
+    color: #d56e00 !important;
+    text-decoration: none !important;
+    cursor: default !important;
+}
+/*
+#lleo_dialog #lleo_text.lleo_known {
+    cursor: pointer !important;
+    text-decoration: underline !important;
+}
+*/
+/*#lleo_dialog #lleo_closeBtn {
+    position: absolute !important;
+    right: 6px !important;
+    top: 5px !important;
+    line-height: 1px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    font-size: 0 !important;
+    color: #aaa !important;
+    display: block !important;
+	z-index: 9999999999 !important;
+	width: 7px !important;
+	height: 7px !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}*/
+
+#lleo_dialog #lleo_optionsBtn {
+    position: absolute !important; 
+    right: 3px !important;
+    top: 5px !important;
+    line-height: 1px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    font-size: 13px !important;
+    color: #aaa !important;
+    padding: 2px !important;
+	display: none;
+}
+    #lleo_dialog.lleo_optionsShown #lleo_optionsBtn {
+        display: block !important;
+    }
+    #lleo_dialog #lleo_optionsBtn img {
+        width: 12px !important;
+        height: 12px !important;
+    }
+#lleo_dialog #lleo_sound {
+    float: left !important;
+    width: 16px !important;
+    height: 16px !important;
+    margin-left: 9px !important;
+    margin-right: 3px !important;
+    background: 0 0 no-repeat !important;
+    cursor: pointer !important;
+    display: none !important;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAfNJREFUeNq0U01IVFEU/u57Oo5WhBRIBBptykWLYBa2soWiEKQQEbrSFsGbVRQKQc2iFqGitXqvjQxCoCJCqyI0aBUtZILaJNUuYWYWo8HovJ/707nP94bnz0rxwvfOuefd8517fi5TSuE4i50YwZ3l37ZhNlpgzFkaaM/G9sHF1YskNrT+7l4PjMOcb78t2JL71uxgB+2UlfxHTtq5N94fIOh/88kWgWfl73ZCSQkpeGg3H091JY6dI2S00qA/N3KO3dDUYhFgEmZGurG+w9FqApIHsVM7kaTF9Nhn0r8Q7hPWQgIRuNaH3AMUA4W/Lkdh04cpFS43G0TgxQTvCdMETVAk3KynIHwXZU/ge8XDt7KH9bKLjU0P2zVO5LsEpSejVRJ9UR18EtfqKegovs9R3Q6w9c/H1o4Aa2Jwm1lIvn9RJ4w9RdRRzqcYrpwycCll4Cy1lnkS3Bc6vfBg28v8aRIfI78zhB/1GygROH3jLyyzMQ0zlUZuZBSlKkeLoegGtTjYLcJ8pF+NakHOFC2J6w+f25mxSfWrWFF/ShXVPTGvtN14NNkVnxlYWJkgZEL7/vwKr55lKSVnaGYWkuYgrgG172uUv47+U7fw0EHaJXmalUQy/HqO6lBzEsVjJC4Q8kd6TETQpjuaGOvjv8b/AgwA/ij1XMx58NIAAAAASUVORK5CYII=) !important;
+}
+#lleo_dialog .lleo_has_sound #lleo_sound {
+    display: block !important;
+}
+
+#lleo_dialog #lleo_soundWave {
+    border: solid 5px #4495CC !important;
+    border-radius: 5px !important;
+    position: absolute !important;
+    left: -5px !important;
+    top: -5px !important;
+    right: -5px !important;
+    bottom: -5px !important;
+    z-index: 0 !important;
+    opacity: 0.9 !important;
+    display: none !important;
+}
+    #lleo_dialog #lleo_soundWave.lleo_beforePlaying {
+        display: block !important;
+    }
+    #lleo_dialog #lleo_soundWave.lleo_playing {
+        opacity: 0 !important;
+        border-width: 20px !important;
+        border-radius: 30px !important;
+
+        -webkit-transform: scale(1.07,1.1) !important;
+        -moz-transform: scale(1.07,1.1) !important;
+        -ms-transform: scale(1.07,1.1) !important;
+        transform: scale(1.07,1.1) !important;
+
+        -webkit-transition: all 0.6s !important;
+        -moz-transition: all 0.6s !important;
+        -ms-transition: all 0.6s !important;
+        transition: all 0.6s !important;
+    }
+
+
+#lleo_dialog #lleo_picOuter {
+    position: absolute !important;
+    float: right !important;
+    top: 4px;
+    right: 5px;
+    z-index: 9 !important;
+    display: none !important;
+    width: 100px !important;
+}
+    #lleo_dialog.lleo_optionsShown #lleo_picOuter {
+        right: 25px;
+    }
+#lleo_dialog .lleo_has_pic #lleo_picOuter {
+    display: block !important;
+}
+    #lleo_dialog #lleo_picOuter:hover {
+        width: auto !important;
+        z-index: 11 !important;
+    }
+#lleo_dialog #lleo_pic,
+#lleo_dialog #lleo_picBig {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    border: solid 2px #fff !important;
+    -webkit-border-radius: 2px !important;
+    -moz-border-radius: 2px !important;
+	border-radius: 2px !important;
+    z-index: 1 !important;
+}
+#lleo_dialog #lleo_pic {
+	position: relative !important;
+    border: none !important;
+	width: 30px !important;
+}
+#lleo_dialog #lleo_picBig {
+    box-shadow: -1px 2px 4px rgba(0,0,0,0.3);
+    z-index: 2 !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+}
+    #lleo_dialog #lleo_picOuter:hover #lleo_picBig {
+        visibility: visible !important;
+        opacity: 1 !important;
+        -webkit-transition: opacity 0.3s !important;
+        -webkit-transition-delay: 0.3s !important;
+    }
+#lleo_dialog #lleo_transcription {
+    margin: 0 80px 4px 31px !important;
+    color: #aaaaaa !important;
+}
+#lleo_dialog .lleo_no_trans {
+    color: #aaa !important;
+}
+
+#lleo_dialog .ll-translation-counter {
+	float: right !important;
+    font-size: 11px !important;
+    color: #aaa !important;
+    padding: 2px 2px 1px 10px !important;
+}
+
+#lleo_dialog .ll-translation-text {
+	float: left !important;
+	/*width: 80% !important;*/
+}
+
+#lleo_dialog #lleo_trans a {
+    color: #3F669F !important;
+    text-decoration: none !important;
+    text-overflow: ellipsis !important;
+    padding: 1px 4px !important;
+    overflow: hidden !important;
+    float: left !important;
+    width: 320px !important;
+}
+
+#lleo_dialog .ll-translation-item {
+    color: #3F669F !important;
+    border: solid 1px #fff !important;
+    padding: 3px !important;
+    width: 100% !important;
+    float: left !important;
+	-moz-border-radius: 2px !important;
+	-webkit-border-radius: 2px !important;
+	border-radius: 2px !important;
+}
+
+#lleo_dialog .ll-translation-item:hover {
+	border: solid 1px #9FC2C9 !important;
+    background: #EDF4F6 !important;
+	cursor: pointer !important;
+}
+#lleo_dialog .ll-translation-item:hover .ll-translation-counter {
+	color: #83a0a6 !important;
+}
+
+#lleo_dialog .ll-translation-marker {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAWSURBVBhXY7RPm/+fAQkwIXNAbMICAJQ8AkvqWg/SAAAAAElFTkSuQmCC) !important;
+    display: inline-block !important;
+    width: 4px !important;
+    height: 4px !important;
+    margin: 7px 5px 2px 2px !important;
+    float: left !important;
+}
+
+#lleo_dialog #lleo_icons {
+    color: #aaa !important;
+    font-size: 11px !important;
+    background: #f8f8f8 !important;
+    padding: 10px 10px 10px 16px !important;
+}
+#lleo_icons a {
+    display: inline-block !important;
+    width: 16px !important;
+    height: 16px !important;
+    margin: 0 10px -4px 3px !important;
+    text-decoration: none !important;
+    opacity: 0.5 !important;
+    background: url(data:image/png;base64,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) !important;
+}
+#lleo_icons a:hover {
+    opacity: 1 !important;
+}
+#lleo_icons a.lleo_google     {background-position:-34px 0 !important;}
+#lleo_icons a.lleo_multitran  {background-position:-64px 0 !important;}
+#lleo_icons a.lleo_lingvo     {background-position:-51px 0 !important; width: 12px !important;}
+#lleo_icons a.lleo_dict       {background-position:-17px 0 !important;}
+#lleo_icons a.lleo_linguee    {background-position:-81px 0 !important;}
+#lleo_icons a.lleo_michaelis  {background-position:-98px 0 !important;}
+
+#lleo_dialog #lleo_contextContainer {
+    margin: 0 !important;
+    padding: 3px 15px 8px 10px !important;
+    background: #eee !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee)) !important;
+    background: -moz-linear-gradient(-90deg, #fff, #eee) !important;
+    border-bottom: solid 1px #ddd !important;
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+    display: none !important;
+    overflow: hidden !important;
+}
+#lleo_dialog .lleo_has_context #lleo_contextContainer {
+    display: block !important;
+}
+#lleo_dialog #lleo_context {
+    color: #444 !important;
+    text-shadow: 1px 1px 0 #f4f4f4 !important;
+    line-height: 12px !important;
+    font-size: 11px !important;
+    margin-left: 2px !important;
+}
+#lleo_dialog #lleo_context b {
+    line-height: 12px !important;
+    color: #000 !important;
+    font-weight: bold !important;
+    font-size: 11px !important;
+}
+/*#lleo_dialog #lleo_gBrand {
+    color: #aaa !important;
+    font-size: 10px !important;
+    *//*padding-right: 52px !important;*//*
+    padding-bottom: 14px !important;
+    margin: -3px 4px 0 4px !important;
+    background: left bottom url(data:image/png;base64,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) no-repeat !important;
+    display: inline-block !important;
+    float: right !important;
+}
+#lleo_dialog #lleo_gBrand.hidden {
+    display: none !important;
+}*/
+#lleo_dialog #lleo_translateContextLink {
+    color: #444 !important;
+    text-shadow: 1px 1px 0 #f4f4f4 !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f4f4f4), to(#ddd)) !important;
+    background: -moz-linear-gradient(-90deg, #f4f4f4, #ddd) !important;
+    border: solid 1px !important;
+    box-shadow: 1px 1px 0 #f6f6f6 !important;
+    border-color: #999 #aaa #aaa #999 !important;
+    -moz-border-radius: 2px !important;
+	-webkit-border-radius: 2px !important;
+	border-radius: 2px !important;
+    padding: 0 3px !important;
+    font-size: 11px !important;
+    text-decoration: none !important;
+    margin: 1px 5px 0 !important;
+    display: inline-block !important;
+    white-space: nowrap !important;
+}
+#lleo_dialog #lleo_translateContextLink:hover {
+    background: #f8f8f8 !important;
+}
+#lleo_dialog #lleo_translateContextLink.hidden {
+    visibility: hidden !important;
+}
+
+#lleo_dialog #lleo_setTransForm {
+    display: block !important;
+    margin-top: 3px !important;
+    padding-top: 5px !important;
+    /* Set position and background because the form might be overlapped by an image when no translations */
+    position: relative !important;
+    background: #fff !important;
+    z-index: 10 !important;
+    padding-bottom: 10px !important;
+    padding-left: 16px !important;
+}
+#lleo_dialog .lleo-custom-translation {
+    padding: 4px 5px !important;
+    border: solid 1px #ddd !important;
+	border-radius: 2px !important;
+    width: 90% !important;
+    min-width: 270px !important;
+    background: -webkit-gradient(linear, 0 0, 0 20, from(#f1f1f1), to(#fff)) !important;
+    background: -moz-linear-gradient(-90deg, #f1f1f1, #fff) !important;
+	font: normal 13px Arial, Helvetica !important;
+	line-height: 15px !important;
+}
+#lleo_dialog .lleo-custom-translation:hover {
+    border: solid 1px #aaa !important;
+}
+#lleo_dialog .lleo-custom-translation:focus {
+    background: #FFFEC9 !important;
+}
+
+#lleo_dialog *.hidden {
+    display: none !important;
+}
+
+#lleo_dialog .infinitive{
+    color: #D56E00 !important;
+    text-decoration: none;
+    border-bottom: 1px dotted #D56E00 !important;
+}
+#lleo_dialog .infinitive:hover{
+    border: none !important;
+}
+
+#lleo_dialog .lleo_separator {
+    height: 1px !important;
+    background: #eee;
+    margin-top: 10px !important;
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%,#eee 8%,rgba(255,255,255,1) 80%) !important;
+    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, #eee 8%, rgba(255,255,255,1) 80%) !important;
+    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%,#eee 8%,rgba(255,255,255,1) 80%) !important;
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%,#eee 8%,rgba(255,255,255,1) 80%) !important;
+}
+#lleo_dialog #lleo_trans {
+    /*border-top: 1px solid #eeeeee !important;*/
+    padding: 5px 30px 0 14px !important;
+    zoom: 1;
+}
+
+#lleo_dialog .lleo_clearfix {
+	display: block !important;
+	clear: both !important;
+	visibility: hidden !important;
+	height: 0 !important;
+	font-size: 0 !important;
+}
+
+
+#lleo_dialog #lleo_picOuter table {
+    width: 44px !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+    vertical-align: middle !important;
+}
+
+#lleo_dialog #lleo_picOuter td {
+    width: 38px !important;
+    height: 38px !important;
+    /*border: 1px solid #eeeeee !important;*/
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+
+#lleo_dialog #lleo_picOuter td div {
+	height: 38px !important;
+	overflow: hidden !important;
+}
+
+#lleo_dialog .lleo_empty {
+    margin: 0 5px 7px !important;
+}
+
+#lleo_youtubeExportBtn {
+    margin-left: 10px;
+    height: 24px;
+}
+    #lleo_youtubeExportBtn i {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: 0 0 url(https://d144fqpiyasmrr.cloudfront.net/plugins/all/images/i16.png) !important;
+    }
+    #lleo_youtubeExportBtn .yt-uix-button-content {
+        font-size: 12px;
+        line-height: 2px;
+    }
+
+
+/*** Parsed Lyrics Content *****************************/
+
+.lleo_lyrics tran {
+    background: transparent !important;
+    border-radius: 2px !important;
+    text-shadow: none !important;
+    cursor: pointer !important;
+}
+    .lleo_lyrics tran:hover {
+        color: #fff !important;
+        background: #C77213 !important;
+        -webkit-transition: all 0.1s !important;
+        -moz-transition: all 0.1s !important;
+        -ms-transition: all 0.1s !important;
+        -o-transition: all 0.1s !important;
+        transition: all 0.1s !important;
+    }
+
+.lleo_songName {
+    border: solid 1px #ffd47c;
+    background: #fff1c2;
+    border-radius: 2px;
+}
+
+.lleo_hidden_iframe {
+    visibility: hidden;
+}</style><style type="text/css" id="lleo_css_enjoyContentControls">#lleo_enjoyContentControls,
+#lleo_enjoyContentControls * {
+    color: #000 !important;
+    font: normal 13px Arial, Helvetica !important;
+    line-height: 15px !important;
+    margin: 0 !important;
+	padding: 0 !important;
+	background: none !important;
+	border: none 0 !important;
+	position: static !important;
+	vertical-align: baseline !important;
+	overflow: visible !important;
+	width: auto !important;
+	height: auto !important;
+    max-width: none !important;
+    max-height: none !important;
+	float: none !important;
+	visibility: visible !important;
+	text-align: left !important;
+    text-transform: none !important;
+	border-collapse: separate !important;
+	border-spacing: 2px !important;
+    box-sizing: content-box !important;
+    box-shadow: none !important;
+    opacity: 1 !important;
+    text-shadow: none !important;
+}
+
+#lleo_enjoyContentControls {
+    background: #f7c875 !important;
+    position: fixed !important;
+    right: 0 !important;
+    top: -40px !important;
+    width: 39px !important;
+    height: 34px !important;
+    opacity: 0.85 !important;
+    border-top-left-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
+    box-shadow: 2px 4px 12px rgba(0,0,0,0.3) !important;
+    z-index: 9999999999999 !important;
+    overflow: hidden !important;
+}
+
+    #lleo_enjoyContentControls.lleo_show {
+        top: 130px !important;
+
+        -webkit-transition: top 0.8s ease-out !important;
+        -moz-transition: top 0.8s ease-out !important;
+        -ms-transition: top 0.8s ease-out !important;
+        -o-transition: top 0.8s ease-out !important;
+        transition: top 0.8s ease-out !important;
+    }
+
+    #lleo_enjoyContentControls:hover {
+        opacity: 1 !important;
+        /*width: 220px !important;*/
+        
+        -webkit-transition: opacity 0.4s linear, width 0.4s ease-out 1.2s  !important;
+        -moz-transition: opacity 0.4s linear, width 0.4s ease-out 1.2s  !important;
+        -ms-transition: opacity 0.4s linear, width 0.4s ease-out 1.2s  !important;
+        -o-transition: opacity 0.4s linear, width 0.4s ease-out 1.2s  !important;
+        transition: opacity 0.4s linear, width 0.4s linear 1.2s  !important;
+    }
+
+    #lleo_enjoyContentControls.lleo_hiding {
+        opacity: 0 !important;
+        -webkit-transition: opacity 3s linear !important;
+        -moz-transition: opacity 3s linear !important;
+        -ms-transition: opacity 3s linear !important;
+        transition: opacity 3s linear !important;
+    }
+
+    #lleo_enjoyContentControls #lleo_enjoyContentPanel {
+        white-space: nowrap !important;
+        margin: 9px 44px 0 10px !important;
+        opacity: 0 !important;
+
+        -webkit-transition: all 0.4s linear 1.2s !important;
+        -moz-transition: all 0.4s linear 1.2s !important;
+        -ms-transition: all 0.4s linear 1.2s !important;
+        -o-transition: all 0.4s linear 1.2s !important;
+        transition: all 0.4s linear 1.2s !important;
+    }
+        #lleo_enjoyContentControls:hover #lleo_enjoyContentPanel {
+            opacity: 1 !important;
+        }
+
+    #lleo_enjoyContentControls #lleo_enjoyContentPanel input {
+        margin-right: 5px !important;
+    }
+
+
+#lleo_enjoyContentButton {
+    background: #fff center center no-repeat !important;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAAk6AAAJOgHwZJJKAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAADBQTFRF////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL92gewAAAA90Uk5TAA0PEhUcLS9CxszS29z1M86yOAAAAFVJREFUCFtjYIADduMCMGZgvmsAxggGUFgELMXAwDq7AaI8MnULmGY9pTYRzIj5vzIALHD+/1Gw4pj/fwJA2kECYHNkgAJgK/yAAmDA8QasBQgcIRQA12YesqxFXfcAAAAASUVORK5CYII8850aa0afe766ff5b5bb3697b8de32f7) !important;
+    background-size: 16px 16px !important;
+    width: 36px !important;
+    height: 34px !important;
+    cursor: pointer !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 0 !important;
+}
+
+
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+    #lleo_enjoyContentButton {
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAABJ0AAASdAHeZh94AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAD9QTFRF////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxQXeHgAAABR0Uk5TAAQFDRkcNz1PcHSIrK6ws7/b8P5ZkzdFAAAAo0lEQVQ4y62RzQ6DMAyDTSkjpfy04Pd/1h12WAtpKk3zzfosJXGAP2l0AODGloc7BJDDtTwgTInS9kAik+W7gd6I7pLFWRK9cuZXgcyT0VjguliJwG1AYPZNvjsAC2OLXzOAYa07LPfj+YLbGJqcPOfd5OTV4WSAVlTNn1Xf+ONZD357t8KrgMbLERovlxSFV2dGhVfy2ebAlG3+SVgc8FHws96B8RE8rjk+bwAAAABJRU5ErkJggga9a50a0b337b82ef5c0bda0f6d6960d3) !important;
+    }
+
+}</style><style type="text/css">#lleo_enjoyContentControls:hover {width: 314px !important}</style></head>
+
+<body><panel class="drweb_select-panel" style="display: none;"><div class="drweb_tool-panel"><div class="drweb_tool-icon drweb_tool-icon_show" data-co="restore-btn" title="restore"></div><div class="drweb_tool-icon drweb_tool-icon_remove" data-co="remove-btn" title="remove"></div><div class="drweb_fit-btn" data-co="fit-btn" title=""></div></div><span data-co="label">Выберите элементы, которые не хотите видеть на этой странице</span><div class="drweb_btn" data-co="save">Сохранить</div><div class="drweb_btn" data-co="cancel">Отмена</div><div class="drweb_panel-plug" data-co="plug" style="display: none"></div></panel>
+    <div id="dokuwiki__site"><div id="dokuwiki__top" class="site dokuwiki mode_show tpl_dokuwiki    showSidebar hasSidebar">
+
+        
+<!-- ********** HEADER ********** -->
+<div id="dokuwiki__header"><div class="pad group">
+
+    
+    <div class="headings group">
+        <ul class="a11y skip">
+            <li><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function#dokuwiki__content">skip to content</a></li>
+        </ul>
+
+        <h1><a href="http://wizwiki.net/wiki/doku.php?id=start" accesskey="h" title="[H]"><img src="./products_w5500_application_tcp_function [Document Wiki]_files/fetch.php" width="190" height="70" alt=""> <span><h1>Document Wiki</h1></span></a></h1>
+            </div>
+
+    <div class="tools group">
+        <!-- USER TOOLS -->
+                    <div id="dokuwiki__usertools">
+                <h3 class="a11y">User Tools</h3>
+                <ul>
+                    <li><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function&amp;do=login&amp;sectok=" class="action login" rel="nofollow" title="Log In">Log In</a></li>                </ul>
+            </div>
+        
+        <!-- SITE TOOLS -->
+        <div id="dokuwiki__sitetools">
+            <h3 class="a11y">Site Tools</h3>
+            <form action="http://wizwiki.net/wiki/doku.php?id=start" accept-charset="utf-8" class="search" id="dw__search" method="get" role="search"><div class="no"><input type="hidden" name="do" value="search"><input type="text" placeholder="Search" id="qsearch__in" accesskey="f" name="id" class="edit" title="[F]"><button type="submit" title="Search">Search</button><div id="qsearch__out" class="ajax_qsearch JSpopup"></div></div></form>            <div class="mobileTools">
+                <form action="http://wizwiki.net/wiki/doku.php" method="get" accept-charset="utf-8"><div class="no"><input type="hidden" name="id" value="products:w5500:application:tcp_function"><select name="do" class="edit quickselect" title="Tools"><option value="">Tools</option><optgroup label="Page Tools"><option value="edit">Show pagesource</option><option value="revisions">Old revisions</option><option value="backlink">Backlinks</option></optgroup><optgroup label="Site Tools"><option value="recent">Recent Changes</option><option value="media">Media Manager</option><option value="index">Sitemap</option></optgroup><optgroup label="User Tools"><option value="login">Log In</option></optgroup></select><button type="submit" style="display: none;">&gt;</button></div></form>            </div>
+            <ul>
+                <li><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function&amp;do=recent" class="action recent" accesskey="r" rel="nofollow" title="Recent Changes [R]">Recent Changes</a></li><li><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function&amp;do=media&amp;ns=products%3Aw5500%3Aapplication" class="action media" rel="nofollow" title="Media Manager">Media Manager</a></li><li><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function&amp;do=index" class="action index" accesskey="x" rel="nofollow" title="Sitemap [X]">Sitemap</a></li>            </ul>
+        </div>
+
+    </div>
+
+    <!-- BREADCRUMBS -->
+            <div class="breadcrumbs">
+                                        <div class="trace"><span class="bchead">Trace:</span> <span class="bcsep">•</span> <bdi><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:driver" class="breadcrumbs" title="products:w5500:driver">driver</a></bdi> <span class="bcsep">•</span> <span class="curid"><bdi><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function" class="breadcrumbs" title="products:w5500:application:tcp_function">tcp_function</a></bdi></span></div>
+                    </div>
+    
+
+
+    <hr class="a11y">
+</div></div><!-- /header -->
+
+        <div class="wrapper group">
+
+                            <!-- ********** ASIDE ********** -->
+                <div id="dokuwiki__aside"><div class="pad aside include group">
+                    <h3 class="toggle open" style="cursor: pointer; display: none;"><strong><span>−</span></strong>Sidebar</h3>
+                    <div class="content" style="" aria-expanded="true"><div class="group">
+                                                                        <ul>
+<li class="level1 node"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products" class="wikilink1" title="products">Products</a>    </div>
+<ul>
+<li class="level2"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:imcu:start" class="wikilink1" title="products:imcu:start">iMCU</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:preprogrammed_mcu:start" class="wikilink1" title="products:preprogrammed_mcu:start">Pre-programmed MCU</a></div>
+</li>
+<li class="level2 node"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:iethernet:start" class="wikilink1" title="products:iethernet:start">iEthernet</a></div>
+<ul>
+<li class="level3 node"><div class="li"> <strong><span class="curid"><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:start" class="wikilink1" title="products:w5500:start">W5500</a></span></strong></div>
+<ul>
+<li class="level4"><div class="li"> <span class="curid"><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:start" class="wikilink1" title="products:w5500:start">Overview</a></span></div>
+</li>
+<li class="level4"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:datasheet" class="wikilink1" title="products:w5500:datasheet">Datasheet</a></div>
+</li>
+<li class="level4"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:driver" class="wikilink1" title="products:w5500:driver">Driver</a>     </div>
+</li>
+<li class="level4"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:refschematic" class="wikilink1" title="products:w5500:refschematic">Ref. Schematic</a></div>
+</li>
+<li class="level4"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:migration" class="wikilink1" title="products:w5500:migration">Migration from W5200</a></div>
+</li>
+<li class="level4 node"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application" class="wikilink1" title="products:w5500:application">Application</a></div>
+<ul>
+<li class="level5"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function" class="wikilink1" title="products:w5500:application:tcp_function">TCP</a></div>
+</li>
+<li class="level5"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:udp_function" class="wikilink1" title="products:w5500:application:udp_function">UDP</a></div>
+</li>
+<li class="level5"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:ipraw" class="wikilink1" title="products:w5500:application:ipraw">IPRAW</a></div>
+</li>
+<li class="level5"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:pppoe" class="wikilink1" title="products:w5500:application:pppoe">PPPoE</a></div>
+</li>
+</ul>
+</li>
+<li class="level4"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:esd" class="wikilink1" title="products:w5500:esd">ESD Test Document</a></div>
+</li>
+<li class="level4"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:allpages" class="wikilink1" title="products:w5500:allpages">All Pages</a></div>
+</li>
+<li class="level4"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:w5500_evb:start" class="wikilink1" title="products:w5500:w5500_evb:start">W5500-EVB</a></div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="level2"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:s2e_module:start" class="wikilink1" title="products:s2e_module:start">S2E Module</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:io_module:start" class="wikilink1" title="products:io_module:start">ioModule</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:app_module:start" class="wikilink1" title="products:app_module:start">App Module</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:wifi_module:start" class="wikilink1" title="products:wifi_module:start">Wi-Fi Module</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=products:wizwiki_module:start" class="wikilink1" title="products:wizwiki_module:start">Mbed WIZwiki Platform</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=osh:start" class="wikilink1" title="osh:start">Open Source Hardware</a></div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=design_guide:start" class="wikilink1" title="design_guide:start">Design Guide</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://wizwiki.net/wiki/doku.php?id=oshw_using_wiznet:start" class="wikilink1" title="oshw_using_wiznet:start">VAR Products using WIZnet</a></div>
+</li>
+</ul>
+                                            </div></div>
+                </div></div><!-- /aside -->
+            
+            <!-- ********** CONTENT ********** -->
+            <div id="dokuwiki__content"><div class="pad group">
+                
+                <div class="pageId"><span>products:w5500:application:tcp_function</span></div>
+
+                <div class="page group" style="min-height: 450.563px;">
+                                                            <!-- wikipage start -->
+                    <!-- TOC START -->
+<div id="dw__toc">
+<h3 class="toggle open" style="cursor: pointer;"><strong><span>−</span></strong>Table of Contents</h3>
+<div style="" aria-expanded="true">
+
+<ul class="toc">
+<li class="level1"><div class="li"><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function#w5500_tcp_function">W5500 TCP Function</a></div>
+<ul class="toc">
+<li class="level2"><div class="li"><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function#initialization">Initialization</a></div>
+<ul class="toc">
+<li class="level3"><div class="li"><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function#basic_setting">Basic Setting</a></div></li>
+<li class="level3"><div class="li"><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function#setting_network_information">Setting network information</a></div></li>
+<li class="level3"><div class="li"><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function#set_socket_memory_information">Set socket memory information</a></div></li>
+</ul>
+</li>
+<li class="level2"><div class="li"><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function#data_communications">Data Communications</a></div>
+<ul class="toc">
+<li class="level3"><div class="li"><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function#tcp">TCP</a></div></li>
+<li class="level3"><div class="li"><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function#tcp_server">TCP SERVER</a></div></li>
+<li class="level3"><div class="li"><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function#tcp_client">TCP CLIENT</a></div></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<h1 class="sectionedit1" id="w5500_tcp_function">W5500 TCP Function</h1>
+<div class="level1">
+
+<p>
+By setting some register and memory operation, W5500 provides internet connectivity.
+This chapter describes how it can be operated.
+</p>
+
+</div>
+
+<h2 class="sectionedit2" id="initialization">Initialization</h2>
+<div class="level2">
+<div class="wrap_round wrap_center wrap_tip wrap_centeralign plugin_wrap" style="width: 80%;">
+<p>
+You <strong>must check PHY LINK</strong> <em>(0 bit of PHYCFGR)</em> <strong>before attempting to make a network connection</strong> using sockets.
+</p>
+</div>
+</div>
+
+<h3 class="sectionedit5" id="basic_setting">Basic Setting</h3>
+<div class="level3">
+
+<p>
+For the W5500 operation, select and utilize appropriate registers shown below.
+</p>
+<ol>
+<li class="level1"><div class="li"> Mode Register (MR)</div>
+</li>
+<li class="level1"><div class="li"> Interrupt Mask Register (IMR)</div>
+</li>
+<li class="level1"><div class="li"> Retry Time-value Register (RTR)</div>
+</li>
+<li class="level1"><div class="li"> Retry Count Register (RCR)</div>
+</li>
+</ol>
+
+<p>
+For more information of above registers, refer to the “Register Descriptions.”
+</p>
+
+</div>
+
+<h3 class="sectionedit6" id="setting_network_information">Setting network information</h3>
+<div class="level3">
+
+<p>
+Basic network information setting for communication:
+It must be set the basic network information.
+</p>
+<ol>
+<li class="level1 node"><div class="li"> SHAR(Source Hardware Address Register)</div>
+<ul>
+<li class="level2"><div class="li"> It is prescribed that the source hardware addresses, which is set by SHAR, use unique hardware addresses (Ethernet MAC address) in the Ethernet MAC layer. The IEEE manages the MAC address allocation. The manufacturer which produces the network device allocates the MAC address to product.</div>
+</li>
+<li class="level2"><div class="li"> Details on MAC address allocation refer to the website as below.</div>
+</li>
+<li class="level2"><div class="li"> <a href="http://www.ieee.org/" class="urlextern" title="http://www.ieee.org/" rel="nofollow">http://www.ieee.org/</a></div>
+</li>
+<li class="level2"><div class="li"> <a href="http://standards.ieee.org/regauth/oui/index.shtml" class="urlextern" title="http://standards.ieee.org/regauth/oui/index.shtml" rel="nofollow">http://standards.ieee.org/regauth/oui/index.shtml</a></div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> GAR(Gateway Address Register)</div>
+</li>
+<li class="level1"><div class="li"> SUBR(Subnet Mask Register)</div>
+</li>
+<li class="level1"><div class="li"> SIPR(Source IP Address Register)</div>
+</li>
+</ol>
+
+</div>
+
+<h3 class="sectionedit7" id="set_socket_memory_information">Set socket memory information</h3>
+<div class="level3">
+
+<p>
+This stage sets the socket tx/rx memory information. The base address and mask address of each socket are fixed and saved in this stage.
+</p>
+
+<p><b><em>In case of, assign 2KB rx, tx memroy per SOCKET</em></b></p>
+<pre class="code c">In <span class="kw1">case</span> of<span class="sy0">,</span> assign 2KB rx<span class="sy0">,</span> tx memory per SOCKET
+<span class="br0">{</span>
+Sn_RXMEM_SIZE<span class="br0">(</span>ch<span class="br0">)</span> <span class="sy0">=</span> <span class="br0">(</span><span class="kw4">uint8</span> <span class="sy0">*</span><span class="br0">)</span> <span class="nu0">2</span><span class="sy0">;</span> <span class="co1">// Assign 2K rx memory per SOCKET</span>
+Sn_TXMEM_SIZE<span class="br0">(</span>ch<span class="br0">)</span> <span class="sy0">=</span> <span class="br0">(</span><span class="kw4">uint8</span> <span class="sy0">*</span><span class="br0">)</span> <span class="nu0">2</span><span class="sy0">;</span> <span class="co1">// Assign 2K rx memory per SOCKET</span>
+&nbsp;
+<span class="coMULTI">/* Same method, set gS1_TX_BASE, gS1_TX_MASK, gS2_TX_BASE, gS2_TX_MASK,
+gS3_TX_BASE, gS3_TX_MASK, gS4_TX_BASE, gS4_TX_MASK, gS5_TX_BASE, gS5_TX_MASK,
+gS6_TX_BASE, gS6_tx_MASK, gS7_TX_BASE, gS7_TX_MASK */</span>
+<span class="br0">}</span></pre>
+
+</div>
+
+<h2 class="sectionedit8" id="data_communications">Data Communications</h2>
+<div class="level2">
+
+<p>
+After the initialization process, W5500 can transmit and receive the data with others by ‘open’ the SOCKET of TCP, UDP, IPRAW, and MACRAW mode. The W5500 supports the independently and simultaneously usable 8 SOCKETS. In this section, the communication method for each mode will be introduced.
+</p>
+
+</div>
+
+<h3 class="sectionedit9" id="tcp">TCP</h3>
+<div class="level3">
+
+<p>
+The TCP is a connection-oriented protocol. The TCP make the connection SOCKET by
+using its own IP address, port number and destination IP address, port number. Then transmits and receives the data by using this SOCKET.
+Methods of making the connection to SOCKET are “TCP SERVER” and “TCP CLIENT”. It
+is divided by transmitting the connect-request (SYN packet). The “TCP SERVER” listens to the connect-request from the “TCP CLIENT”, and makes connection SOCKET by accepting the transmitted connect-request (Passive-open).
+The “TCP CLIENT” transmits the connect-request first to “TCP SERVER” to make the
+connection (Active-open).
+</p>
+
+<p>
+<a href="http://wizwiki.net/wiki/lib/exe/detail.php?id=products%3Aw5500%3Aapplication%3Atcp_function&amp;media=products:w5500:application:serverclient.jpg" class="media" title="products:w5500:application:serverclient.jpg"><img src="./products_w5500_application_tcp_function [Document Wiki]_files/fetch(1).php" class="media" title="TCP SERVER and TCP CLIENT" alt="TCP SERVER and TCP CLIENT"></a>
+</p>
+
+</div>
+
+<h3 class="sectionedit10" id="tcp_server">TCP SERVER</h3>
+<div class="level3">
+
+<p>
+<a href="http://wizwiki.net/wiki/lib/exe/detail.php?id=products%3Aw5500%3Aapplication%3Atcp_function&amp;media=products:w5500:application:server_flow.jpg" class="media" title="products:w5500:application:server_flow.jpg"><img src="./products_w5500_application_tcp_function [Document Wiki]_files/fetch(2).php" class="media" title="TCP SERVER Operation Flow" alt="TCP SERVER Operation Flow"></a>
+</p>
+
+</div>
+
+<h5 id="socket_initialization">SOCKET Initialization</h5>
+<div class="level5">
+
+<p>
+SOCKET initialization is required for TCP data communication. The initialization is opening the SOCKET. The SOCKET opening process selects one SOCKET from 8 SOCKETS of the W5500, and sets the protocol mode (Sn_MR) and Sn_PORT0 which is source port number (Listen port number in “TCP SERVER”) in the selected SOCKET, and then executes OPEN command. After the OPEN command, if the status of Sn_SR is changed to SOCK_INIT, the SOCKET initialization process is completed.
+The SOCKET initialization process is identically applied in “TCP SERVER” and “TCP CLIENT.”The Initialization process of Socket n in TCP mode is shown below.
+</p>
+<pre class="code c"><span class="br0">{</span>
+START<span class="sy0">:</span>
+Sn_MR <span class="sy0">=</span> <span class="nu12">0x01</span><span class="sy0">;</span> <span class="co1">// sets TCP mode</span>
+Sn_PORT0 <span class="sy0">=</span> source_port<span class="sy0">;</span> <span class="co1">// sets source port number</span>
+Sn_CR <span class="sy0">=</span> OPEN<span class="sy0">;</span> <span class="co1">// sets OPEN command</span>
+<span class="coMULTI">/* wait until Sn_SR is changed to SOCK_INIT */</span>
+<span class="kw1">if</span> <span class="br0">(</span>Sn_SR <span class="sy0">!=</span> SOCK_INIT<span class="br0">)</span> Sn_CR <span class="sy0">=</span> CLOSE<span class="sy0">;</span> <span class="kw1">goto</span> START<span class="sy0">;</span>
+<span class="br0">}</span></pre>
+<div class="wrap_round wrap_center wrap_tip wrap_centeralign plugin_wrap" style="width: 80%;">
+<p>
+After W5500 <strong>accepts the command, the Sn_CR register is
+automatically cleared to 0x00</strong>. Even though Sn_CR is cleared to 0x00, the command is
+still being processed. <em>To check whether the command is completed or not, please
+check the Sn_IR or Sn_SR.</em>
+</p>
+</div>
+</div>
+
+<h5 id="listen">LISTEN</h5>
+<div class="level5">
+
+<p>
+Run as “TCP SERVER” by LISTEN command.
+</p>
+<pre class="code c"><span class="br0">{</span>
+<span class="coMULTI">/* listen SOCKET */</span>
+Sn_CR <span class="sy0">=</span> LISTEN<span class="sy0">;</span>
+<span class="coMULTI">/* wait until Sn_SR is changed to SOCK_LISTEN */</span>
+<span class="kw1">if</span> <span class="br0">(</span>Sn_SR <span class="sy0">!=</span> SOCK_LISTEN<span class="br0">)</span> Sn_CR <span class="sy0">=</span> CLOSE<span class="sy0">;</span> <span class="kw1">goto</span> START<span class="sy0">;</span>
+<span class="br0">}</span></pre>
+
+</div>
+
+<h5 id="establishment">ESTABLISHMENT</h5>
+<div class="level5">
+
+<p>
+When the status of Sn_SR is SOCK_LISTEN, if it receives a SYN packet, the status of Sn_SR is changed to SOCK_SYNRECV and transmits the SYN/ACK packet. After that, the Socket n makes a connection. After it makes the connection of Socket n , it enables the data communication. There are two methods to confirm the connection of Socket n .
+</p>
+<pre class="code c">First method <span class="sy0">:</span>
+<span class="br0">{</span>
+<span class="kw1">if</span> <span class="br0">(</span>Sn_IR<span class="br0">(</span>CON<span class="br0">)</span> <span class="sy0">==</span> ‘<span class="nu0">1</span>’<span class="br0">)</span>
+<span class="coMULTI">/* When an interrupt occurs and the mask bit of Sn_IMR is ‘1’, the interrupt bit of Sn_IR
+becomes ‘1’ */</span>
+Sn_IR<span class="br0">(</span>CON<span class="br0">)</span> <span class="sy0">=</span> ‘<span class="nu0">1</span>’<span class="sy0">;</span>
+<span class="coMULTI">/*In order to clear the Sn_IR bit, the host should write the bit as ‘1’. When all the bits of
+Sn_IR is cleared (‘0’), IR(n) is automatically cleared.*/</span>
+<span class="kw1">goto</span> ESTABLISHED stage<span class="sy0">;</span>
+<span class="coMULTI">/* In this case, if the interrupt of Socket n is activated, interrupt occurs. Refer to IR, IMR
+Sn_IMR and Sn_IR. */</span>
+<span class="br0">}</span>
+Second method <span class="sy0">:</span>
+<span class="br0">{</span>
+<span class="kw1">if</span> <span class="br0">(</span>Sn_SR <span class="sy0">==</span> SOCK_ESTABLISHED<span class="br0">)</span> <span class="kw1">goto</span> ESTABLISHED stage<span class="sy0">;</span>
+<span class="br0">}</span></pre>
+
+</div>
+
+<h5 id="establishmentcheck_received_data">ESTABLISHMENT : Check received data</h5>
+<div class="level5">
+
+<p>
+Confirm the reception of the TCP data.
+</p>
+<pre class="code c">First method <span class="sy0">:</span>
+<span class="br0">{</span>
+<span class="kw1">if</span> <span class="br0">(</span>Sn_IR<span class="br0">(</span>RECV<span class="br0">)</span> <span class="sy0">==</span> ‘<span class="nu0">1</span>’<span class="br0">)</span> Sn_IR<span class="br0">(</span>RECV<span class="br0">)</span> <span class="sy0">=</span> ‘<span class="nu0">1</span>’<span class="sy0">;</span> <span class="kw1">goto</span> Receiving Process stage<span class="sy0">;</span>
+<span class="coMULTI">/* In this case, if the interrupt of Socket n is activated, interrupt occurs. Refer to IR, IMR
+Sn_IMR and Sn_IR. */</span>
+<span class="br0">}</span>
+Second Method <span class="sy0">:</span>
+<span class="br0">{</span>
+<span class="kw1">if</span> <span class="br0">(</span>Sn_RX_RSR0 <span class="sy0">!=</span> <span class="nu12">0x0000</span><span class="br0">)</span> <span class="kw1">goto</span> Receiving Process stage<span class="sy0">;</span>
+<span class="br0">}</span></pre>
+
+<p>
+The First method: set the Sn_IR(RECV) to ‘1’ whenever you receive a DATA packet. If the host receives the next DATA packet without setting the Sn_IR(RECV) as ‘1’ in the prior DATA packet, it cannot recognize the Sn_IR(RECV) of the next DATA packet. This is due to the prior Sn_IR(RECV) and next Sn_IR(RECV) being overlapped. So this method is not recommended if the host cannot perfectly process the DATA packets of each Sn_IR(RECV).
+</p>
+
+</div>
+
+<h5 id="establishmentreceiving_process">ESTABLISHMENT : Receiving process</h5>
+<div class="level5">
+
+<p>
+In this process, it processes the TCP data which was received in the Internal RX
+memory. At the TCP mode, the W5500 cannot receive the data if the size of received data is larger than the RX memory free size of Socket n . If the prior stated condition is happened, the W5500 holds on to the connection (pauses), and waits until the RX memory’s free size is larger than the size of the received data.
+</p>
+<pre class="code c"><span class="br0">{</span>
+<span class="coMULTI">/* first, get the received size */</span>
+len <span class="sy0">=</span> Sn_RX_RSR<span class="sy0">;</span> <span class="co1">// len is received size</span>
+<span class="coMULTI">/* select RX memory, refer to Datasheet 14 page */</span>
+cntl_byte <span class="sy0">=</span> Socket_n_RX_Buffer 
+<span class="coMULTI">/* Get offset address */</span>
+src_ptr <span class="sy0">=</span> Sn_RX_RD<span class="sy0">;</span>
+<span class="coMULTI">/* set memory copy len bytes of source_ptr to destination_address */</span>
+<span class="kw1">for</span> <span class="br0">(</span>i<span class="sy0">=</span><span class="nu0">0</span><span class="sy0">;</span> i<span class="sy0">&lt;</span>len<span class="sy0">;</span> i<span class="sy0">++</span><span class="br0">)</span>
+<span class="br0">{</span>
+   <span class="sy0">*</span><span class="br0">(</span>dst_ptr<span class="sy0">+</span>i<span class="br0">)</span> <span class="sy0">=</span> W5500_READ<span class="br0">(</span>addr<span class="sy0">,</span> cntl_byte<span class="sy0">,</span> src_ptr<span class="sy0">+</span>i<span class="br0">)</span><span class="sy0">;</span>
+<span class="br0">}</span>
+<span class="coMULTI">/* increase Sn_RX_RD as length of len */</span>
+Sn_RX_RD <span class="sy0">+=</span> len<span class="sy0">;</span>
+<span class="coMULTI">/* set RECV command */</span>
+Sn_CR <span class="sy0">=</span> RECV<span class="sy0">;</span>
+<span class="br0">}</span></pre>
+
+</div>
+
+<h5 id="establishmentcheck_send_data_send_process">ESTABLISHMENT: Check send data / Send process</h5>
+<div class="level5">
+
+<p>
+The size of the transmit data cannot be larger than assigned internal TX memory of Socket n. If the size of transmit data is larger than configured MSS, it is divided by size of MSS and transmits. To transmit the next data, user must check the completion of prior SEND command. An error may occur if the SEND command executes before completion of prior SEND command. The larger the data size, the more time to complete the SEND command. So the user should properly divide the data to transmit.<br>
+
+To check the completion of the SEND command, it should be check that the send data length is equal with the actual sent data length. The actual sent data length is calculated by the difference of the Sn_TX_RD before and after performing the SEND command. If the actual sent data is less than the send data length, the SEND command is retried for sending the left data. The send process is therefore completed the SENDwhen the sum of the actual sent data is equal the send data length. A simple example of the send process is as below<br>
+
+Ex) Send Data Length Size= 10,<br>
+
+</p>
+<ol>
+<li class="level1"><div class="li"> <strong>Execute SEND Command with send data length</strong></div>
+</li>
+<li class="level1 node"><div class="li"> <strong>Calculate the actual sent data length</strong></div>
+<ul>
+<li class="level2"><div class="li"> If the actual sent data length is 7 (= Sn_TX_RD_after_SEND-Sn_TX_RD_befor_SEND),</div>
+</li>
+<li class="level2"><div class="li"> the left Data length= 3</div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> <strong>Retry SEND Command until the sum of the actual sent data length is same the send data length.</strong><br>
+</div>
+</li>
+</ol>
+
+<p>
+Note: Don’t copy data until the sum of the actual sent data length is the send data length.
+</p>
+<pre class="code c"><span class="br0">{</span>
+<span class="coMULTI">/* first, get the free TX memory size */</span>
+FREESIZE<span class="sy0">:</span>
+freesize <span class="sy0">=</span> Sn_TX_FSR<span class="sy0">;</span>
+<span class="kw1">if</span> <span class="br0">(</span>freesize<span class="sy0">&lt;</span>len<span class="br0">)</span> <span class="kw1">goto</span> FREESIZE<span class="sy0">;</span> <span class="co1">// len is send size</span>
+&nbsp;
+<span class="coMULTI">/* select TX memory, refer to Datasheet 14 page */</span>
+cntl_byte <span class="sy0">=</span> Socket_n_TX_Buffer 
+<span class="coMULTI">/* Get offset address */</span>
+dst_ptr <span class="sy0">=</span> Sn_TX_RD<span class="sy0">;</span>
+<span class="coMULTI">/* set memory copy len bytes of source_ptr to destination_address */</span>
+<span class="kw1">for</span> <span class="br0">(</span>i<span class="sy0">=</span><span class="nu0">0</span><span class="sy0">;</span> i<span class="sy0">&lt;</span>len<span class="sy0">;</span> i<span class="sy0">++</span><span class="br0">)</span>
+<span class="br0">{</span>
+   W5500_WRITE<span class="br0">(</span>addr<span class="sy0">,</span> cntl_byte<span class="sy0">,</span> dst_ptr<span class="sy0">+</span>i<span class="br0">)</span><span class="sy0">;</span>
+<span class="br0">}</span>
+&nbsp;
+<span class="coMULTI">/* increase Sn_TX_WR as length of len */</span>
+Sn_TX_WR <span class="sy0">+=</span> send_size<span class="sy0">;</span>
+<span class="coMULTI">/* set SEND command */</span>
+Sn_CR <span class="sy0">=</span> SEND<span class="sy0">;</span>
+<span class="coMULTI">/* return real packet size */</span>
+<span class="kw1">return</span> len<span class="sy0">;</span>
+<span class="br0">}</span></pre>
+
+</div>
+
+<h5 id="establishmentcheck_disconnect-request_fin_packet">ESTABLISHMENT : Check disconnect-request(FIN packet)</h5>
+<div class="level5">
+
+<p>
+Check if the Disconnect-request(FIN packet) has been received. User can confirm the reception of FIN packet as below.
+</p>
+<pre class="code c">First method <span class="sy0">:</span>
+<span class="br0">{</span>
+<span class="kw1">if</span> <span class="br0">(</span>Sn_IR<span class="br0">(</span>DISCON<span class="br0">)</span> <span class="sy0">==</span> ‘<span class="nu0">1</span>’<span class="br0">)</span> Sn_IR<span class="br0">(</span>DISCON<span class="br0">)</span><span class="sy0">=</span>‘<span class="nu0">1</span>’<span class="sy0">;</span> <span class="kw1">goto</span> CLOSED stage<span class="sy0">;</span>
+<span class="coMULTI">/* In this case, if the interrupt of Socket n is activated, interrupt occurs. Refer to IR, IMR
+Sn_IMR and Sn_IR. */</span>
+<span class="br0">}</span>
+Second method <span class="sy0">:</span>
+<span class="br0">{</span>
+<span class="kw1">if</span> <span class="br0">(</span>Sn_SR <span class="sy0">==</span> SOCK_CLOSE_WAIT<span class="br0">)</span> <span class="kw1">goto</span> CLOSED stage<span class="sy0">;</span>
+<span class="br0">}</span></pre>
+
+</div>
+
+<h5 id="establishmentcheck_disconnect_disconnecting_process">ESTABLISHMENT : Check disconnect / disconnecting process</h5>
+<div class="level5">
+
+<p>
+When the user does not need data communication with others, or receives a FIN
+packet, disconnect the connection SOCKET.
+</p>
+<pre class="code c"><span class="br0">{</span>
+<span class="coMULTI">/* set DISCON command */</span>
+Sn_CR <span class="sy0">=</span> DISCON<span class="sy0">;</span>
+<span class="br0">}</span></pre>
+
+</div>
+
+<h5 id="establishmentcheck_closed">ESTABLISHMENT : Check closed</h5>
+<div class="level5">
+
+<p>
+Confirm that the Socket n is disconnected or closed by DISCON or close command.
+</p>
+<pre class="code c">First method <span class="sy0">:</span>
+<span class="br0">{</span>
+<span class="kw1">if</span> <span class="br0">(</span>Sn_IR<span class="br0">(</span>DISCON<span class="br0">)</span> <span class="sy0">==</span> ‘<span class="nu0">1</span>’<span class="br0">)</span> <span class="kw1">goto</span> CLOSED stage<span class="sy0">;</span>
+<span class="coMULTI">/* In this case, if the interrupt of Socket n is activated, interrupt occurs. Refer to IR, IMR
+Sn_IMR and Sn_IR. */</span>
+<span class="br0">}</span>
+Second method <span class="sy0">:</span>
+<span class="br0">{</span>
+<span class="kw1">if</span> <span class="br0">(</span>Sn_SR <span class="sy0">==</span> SOCK_CLOSED<span class="br0">)</span> <span class="kw1">goto</span> CLOSED stage<span class="sy0">;</span>
+<span class="br0">}</span></pre>
+
+</div>
+
+<h5 id="establishmenttimeout">ESTABLISHMENT: Timeout</h5>
+<div class="level5">
+
+<p>
+The timeout can occur by Connect-request(SYN packet) or its response(SYN/ACK packet), the DATA packet or its response(DATA/ACK packet), the Disconnectrequest 
+FIN packet) or its response(FIN/ACK packet) and transmission all TCP packet. If it cannot transmit the above packets within ‘timeout’ which is configured at RTR and RCR, the TCP final timeout(TCP<sub>TO</sub>) occurs and the state of Sn_SR is set to SOCK_CLOSED. Confirming method of the TCP<sub>TO</sub> is as below:
+</p>
+<pre class="code c">First method <span class="sy0">:</span>
+<span class="br0">{</span>
+<span class="kw1">if</span> <span class="br0">(</span>Sn_IR<span class="br0">(</span>TIMEOUT bit<span class="br0">)</span> <span class="sy0">==</span> ‘<span class="nu0">1</span>’<span class="br0">)</span> Sn_IR<span class="br0">(</span>TIMEOUT<span class="br0">)</span><span class="sy0">=</span>‘<span class="nu0">1</span>’<span class="sy0">;</span> <span class="kw1">goto</span> CLOSED stage<span class="sy0">;</span>
+<span class="coMULTI">/* In this case, if the interrupt of Socket n is activated, interrupt occurs. Refer to IR, IMR
+Sn_IMR and Sn_IR. */</span>
+<span class="br0">}</span>
+Second method <span class="sy0">:</span>
+<span class="br0">{</span>
+<span class="kw1">if</span> <span class="br0">(</span>Sn_SR <span class="sy0">==</span> SOCK_CLOSED<span class="br0">)</span> <span class="kw1">goto</span> CLOSED stage<span class="sy0">;</span>
+<span class="br0">}</span></pre>
+
+</div>
+
+<h5 id="socket_close">SOCKET Close</h5>
+<div class="level5">
+
+<p>
+It can be used to close the Socket n , which disconnected by disconnect-process, or closed by TCP<sub>TO</sub> or closed by host’s need without disconnect-process.
+</p>
+<pre class="code c"><span class="br0">{</span>
+<span class="coMULTI">/* clear the remained interrupts of Socket n */</span>
+Sn_IR <span class="sy0">=</span> <span class="nu12">0xFF</span><span class="sy0">;</span>
+IR<span class="br0">(</span>n<span class="br0">)</span> <span class="sy0">=</span> ‘<span class="nu0">1</span>’<span class="sy0">;</span>
+<span class="coMULTI">/* set CLOSE command */</span>
+Sn_CR <span class="sy0">=</span> CLOSE<span class="sy0">;</span>
+<span class="br0">}</span></pre>
+
+</div>
+
+<h3 class="sectionedit13" id="tcp_client">TCP CLIENT</h3>
+<div class="level3">
+
+<p>
+It is same as TCP server except ‘CONNECT’ state. User can refer to the above “TCP SERVER” section.
+</p>
+
+<p>
+<a href="http://wizwiki.net/wiki/lib/exe/detail.php?id=products%3Aw5500%3Aapplication%3Atcp_function&amp;media=products:w5500:application:client_flow.jpg" class="media" title="products:w5500:application:client_flow.jpg"><img src="./products_w5500_application_tcp_function [Document Wiki]_files/fetch(3).php" class="media" title="TCP CLIENT Operation Flow" alt="TCP CLIENT Operation Flow"></a>
+</p>
+
+</div>
+
+<h5 id="connect">CONNECT</h5>
+<div class="level5">
+
+<p>
+Transmit the connect-request (SYN packet) to “TCP SERVER”. It may occurs the
+timeout such as ARP<sub>TO</sub>, TCP<sub>TO</sub> when make the “connection SOCKET” with “TCP SERVER”
+</p>
+<pre class="code c"><span class="br0">{</span>
+Sn_DIPR0 <span class="sy0">=</span> server_ip<span class="sy0">;</span> <span class="coMULTI">/* set TCP SERVER IP address*/</span>
+Sn_DPORT0 <span class="sy0">=</span> server_port<span class="sy0">;</span> <span class="coMULTI">/* set TCP SERVER listen port number*/</span>
+Sn_CR <span class="sy0">=</span> CONNECT<span class="sy0">;</span> <span class="coMULTI">/* set CONNECT command */</span>
+<span class="br0">}</span></pre>
+
+</div>
+
+                    <!-- wikipage stop -->
+                                    </div>
+
+                <div class="docInfo"><bdi>products/w5500/application/tcp_function.txt</bdi> · Last modified: 2017/05/18 10:16 by <bdi>kei</bdi></div>
+
+                            </div></div><!-- /content -->
+
+            <hr class="a11y">
+
+            <!-- PAGE ACTIONS -->
+            <div id="dokuwiki__pagetools">
+                <h3 class="a11y">Page Tools</h3>
+                <div class="tools">
+                    <ul>
+                        <li><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function&amp;do=edit" class="action source" accesskey="v" rel="nofollow" title="Show pagesource [V]"><span>Show pagesource</span></a></li><li><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function&amp;do=revisions" class="action revs" accesskey="o" rel="nofollow" title="Old revisions [O]"><span>Old revisions</span></a></li><li><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function&amp;do=backlink" class="action backlink" rel="nofollow" title="Backlinks"><span>Backlinks</span></a></li><li><a href="http://wizwiki.net/wiki/doku.php?id=products:w5500:application:tcp_function#dokuwiki__top" class="action top" accesskey="t" rel="nofollow" title="Back to top [T]"><span>Back to top</span></a></li>                    </ul>
+                </div>
+            </div>
+        </div><!-- /wrapper -->
+
+        
+<!-- ********** FOOTER ********** -->
+<div id="dokuwiki__footer"><div class="pad">
+    <div class="license">Except where otherwise noted, content on this wiki is licensed under the following license: <bdi><a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license" class="urlextern">CC Attribution-Share Alike 4.0 International</a></bdi></div>
+    <div class="buttons">
+        <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license"><img src="./products_w5500_application_tcp_function [Document Wiki]_files/cc-by-sa.png" alt="CC Attribution-Share Alike 4.0 International"></a>        <a href="http://www.dokuwiki.org/donate" title="Donate"><img src="./products_w5500_application_tcp_function [Document Wiki]_files/button-donate.gif" width="80" height="15" alt="Donate"></a>
+        <a href="http://php.net/" title="Powered by PHP"><img src="./products_w5500_application_tcp_function [Document Wiki]_files/button-php.gif" width="80" height="15" alt="Powered by PHP"></a>
+        <a href="http://validator.w3.org/check/referer" title="Valid HTML5"><img src="./products_w5500_application_tcp_function [Document Wiki]_files/button-html5.png" width="80" height="15" alt="Valid HTML5"></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS"><img src="./products_w5500_application_tcp_function [Document Wiki]_files/button-css.png" width="80" height="15" alt="Valid CSS"></a>
+        <a href="http://dokuwiki.org/" title="Driven by DokuWiki"><img src="./products_w5500_application_tcp_function [Document Wiki]_files/button-dw.png" width="80" height="15" alt="Driven by DokuWiki"></a>
+    </div>
+</div></div><!-- /footer -->
+
+    </div></div><!-- /site -->
+
+    <div class="no"><img src="./products_w5500_application_tcp_function [Document Wiki]_files/indexer.php" width="2" height="1" alt=""></div>
+    <div id="screen__mode" class="no"></div>
+
+<div id="lleo_enjoyContentControls" class=" lleo_show">
+    <div id="lleo_enjoyContentPanel">
+        <label id="lleo_enjoyContentLabel"><input id="lleo_enjoyContentCheckbox" type="checkbox" checked="">Показывать эту иконку когда возможно</label>
+    </div>
+    <div id="lleo_enjoyContentButton" title="Ничего лишнего!"></div>
+</div></body></html>

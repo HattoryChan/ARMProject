@@ -1,0 +1,9 @@
+.\objects\nrf24l01p.o: Startup\nRF24L01P.c
+.\objects\nrf24l01p.o: Startup\stm32f10x_RCC.h
+.\objects\nrf24l01p.o: Startup\stm32f10x.h
+.\objects\nrf24l01p.o: Startup\core_cm3.h
+.\objects\nrf24l01p.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\nrf24l01p.o: .\CMSIS\system_stm32f10x.h
+.\objects\nrf24l01p.o: Startup\stm32f10x_GPIO.h
+.\objects\nrf24l01p.o: Startup\stm32f10x_SPI.h
+.\objects\nrf24l01p.o: Startup\nRF24l01P.h

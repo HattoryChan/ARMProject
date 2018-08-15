@@ -1,0 +1,24 @@
+Dependencies for Project '28.02.2017 GPIO Try 2', Target '28.02.2017': (DO NOT MODIFY !)
+F (.\main\main.c)(0x58B57BD7)(-c --cpu Cortex-M4.fp -D__EVAL -g -O2 --apcs=interwork --split_sections -I .\CMSIS-I"D:\Google Диск\ARMProject\STM32F4_Files_And_Project\STMF4_GPIO_TRY2\RTE\_28.02.2017"-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F411xE --C99-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\CMSIS\stm32f4xx.h)(0x582097AB)
+I (.\CMSIS\core_cm4.h)(0x581CC64D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F630E8)
+I (.\CMSIS\core_cmInstr.h)(0x581CC64D)
+I (.\CMSIS\core_cmFunc.h)(0x581CC64D)
+I (.\CMSIS\core_cmSimd.h)(0x581CC64D)
+I (.\CMSIS\system_stm32f4xx.h)(0x582097AB)
+F (.\CMSIS\core_cm4.h)(0x581CC64D)()
+F (.\CMSIS\stm32f4xx.h)(0x582097AB)()
+F (.\CMSIS\system_stm32f4xx.c)(0x58244C26)(-c --cpu Cortex-M4.fp -D__EVAL -g -O2 --apcs=interwork --split_sections -I .\CMSIS-I"D:\Google Диск\ARMProject\STM32F4_Files_And_Project\STMF4_GPIO_TRY2\RTE\_28.02.2017"-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="522" -DSTM32F411xE --C99-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (CMSIS\stm32f4xx.h)(0x582097AB)
+I (CMSIS\core_cm4.h)(0x581CC64D)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x57F630E8)
+I (.\CMSIS\core_cmInstr.h)(0x581CC64D)
+I (.\CMSIS\core_cmFunc.h)(0x581CC64D)
+I (.\CMSIS\core_cmSimd.h)(0x581CC64D)
+I (CMSIS\system_stm32f4xx.h)(0x582097AB)
+F (.\CMSIS\system_stm32f4xx.h)(0x582097AB)()
+F (.\CMSIS\core_cmFunc.h)(0x581CC64D)()
+F (.\CMSIS\core_cmInstr.h)(0x581CC64D)()
+F (.\CMSIS\core_cmSimd.h)(0x581CC64D)()
+F (.\CMSIS\startup_stm32f411xe.s)(0x582097A0)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I"D:\Google Диск\ARMProject\STM32F4_Files_And_Project\STMF4_GPIO_TRY2\RTE\_28.02.2017"-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 522" --pd "STM32F411xE SETA 1"--list .\listings\startup_stm32f411xe.lst --xref -o .\objects\startup_stm32f411xe.o --depend .\objects\startup_stm32f411xe.d)

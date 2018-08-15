@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace -I..\..\..\workspace\NRF24L01_tx\cmsis_lib\include -IJ:\$МИКРОЭЛЕКТРОНИКА\Радиоуправления\STM -I..\..\..\workspace\NRF24L01_tx\cmsis_lib -I..\..\..\workspace\NRF24L01_tx\cmsis_boot -I..\..\..\workspace\NRF24L01_tx\cmsis -I..\..\..\workspace\NRF24L01_tx -IJ:\$МИКРОЭЛЕКТРОНИКА\Радиоуправления\STM\STM32F4\nRF24L01p -IJ:\$МИКРОЭЛЕКТРОНИКА\Радиоуправления\STM\STM32F4">
+      <target file="syscalls.o" lastModified="13eec3e27af">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="13edfe9389b"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="13eec3e2753">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="13edfe90432"/>
+      </target>
+      <target file="nrf24l01p.o" lastModified="13eec3e287b">
+         <source file="J:\$МИКРОЭЛЕКТРОНИКА\Радиоуправления\STM\STM32F4\nRF24L01p\nrf24l01p.c" lastModified="13be237f7e8"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="13eec3e2784">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="13edfe90462"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="13eec3e267b">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="13edfe9043d"/>
+      </target>
+      <target file="main.o" lastModified="13eec3e26c6">
+         <source file="..\..\..\main.c" lastModified="13eec3e1962"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="13eec3e27f6">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="13edfe908eb"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="13eec3e2718">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="13edfe9049a"/>
+      </target>
+      <target file="misc.o" lastModified="13eec3e2825">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="13edffb8d49"/>
+      </target>
+   </processor>
+</history>

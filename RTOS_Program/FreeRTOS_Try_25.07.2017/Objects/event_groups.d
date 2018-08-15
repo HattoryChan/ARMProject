@@ -1,0 +1,15 @@
+.\objects\event_groups.o: FReeRTOS_STM32f100RB\event_groups.c
+.\objects\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\event_groups.o: .\FReeRTOS_STM32f100RB\include\FreeRTOS.h
+.\objects\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\event_groups.o: .\FReeRTOS_STM32f100RB\include\FreeRTOSConfig.h
+.\objects\event_groups.o: .\FReeRTOS_STM32f100RB\include\projdefs.h
+.\objects\event_groups.o: .\FReeRTOS_STM32f100RB\include\portable.h
+.\objects\event_groups.o: .\FReeRTOS_STM32f100RB\include\deprecated_definitions.h
+.\objects\event_groups.o: .\FReeRTOS_STM32f100RB\include\portmacro.h
+.\objects\event_groups.o: .\FReeRTOS_STM32f100RB\include\mpu_wrappers.h
+.\objects\event_groups.o: .\FReeRTOS_STM32f100RB\include\task.h
+.\objects\event_groups.o: .\FReeRTOS_STM32f100RB\include\list.h
+.\objects\event_groups.o: .\FReeRTOS_STM32f100RB\include\timers.h
+.\objects\event_groups.o: .\FReeRTOS_STM32f100RB\include\event_groups.h

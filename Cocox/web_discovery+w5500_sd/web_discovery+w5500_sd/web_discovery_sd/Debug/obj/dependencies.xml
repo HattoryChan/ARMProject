@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/ID:\Google Диск\ARMProject\Cocox\web_discovery+w5500_sd\web_discovery+w5500_sd\Ethernet /ID:\Google Диск\ARMProject\Cocox\web_discovery+w5500_sd\web_discovery+w5500_sd\ff /ID:\Google Диск\ARMProject\Cocox\web_discovery+w5500_sd\web_discovery+w5500_sd\Ethernet\W5500 /ID:\Google Диск\ARMProject\Cocox\web_discovery+w5500_sd\web_discovery+w5500_sd\cmsis_boot /ID:\Google Диск\ARMProject\Cocox\web_discovery+w5500_sd\web_discovery+w5500_sd\cmsis /ID:\Google Диск\ARMProject\Cocox\web_discovery+w5500_sd\web_discovery+w5500_sd\stm_lib\inc /ID:\Google Диск\ARMProject\Cocox /ID:\Google Диск\ARMProject\Cocox\web_discovery+w5500_sd /ID:\Google Диск\ARMProject\Cocox\web_discovery+w5500_sd\web_discovery+w5500_sd\stm_lib /ID:\Google Диск\ARMProject\Cocox\web_discovery+w5500_sd\web_discovery+w5500_sd">
+      <source file="..\..\..\Ethernet\wizchip_conf.h" lastModified="148355323bc">
+         <include file="..\..\..\Ethernet\W5500\w5500.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="144061ce5e5">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="144061d1c6b">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\ff\diskio.h" lastModified="12d4cdcf850">
+         <include file="..\..\..\ff\integer.h"/>
+      </source>
+      <source file="..\..\..\Ethernet\wizchip_conf.c" lastModified="14835531fca">
+         <include file="..\..\..\Ethernet\wizchip_conf.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="144061cf657">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_pwr.h" lastModified="144061d0131">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="144061d06c7">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="144061cf6a7">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="144061cf701">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="144061cf6e3">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_bkp.h" lastModified="144061d0163">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="144061cf6d9">
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="144061d359d">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="144061ce9eb">
+      </source>
+      <source file="..\..\..\Ethernet\socket.h" lastModified="14835531bd8">
+         <include file="..\..\..\Ethernet\wizchip_conf.h"/>
+      </source>
+      <source file="..\..\..\Ethernet\socket.c" lastModified="1614cadc7f4">
+         <include file="..\..\..\Ethernet\socket.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="144061d2855">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="144061d1c6b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="144061d3593">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="1483a52c5be">
+      </source>
+      <source file="..\..\..\main.c" lastModified="1614d3c833f">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\Ethernet\socket.h"/>
+         <include file="..\..\..\spi.h"/>
+         <include file="..\..\..\spi.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="144061ce9f5">
+      </source>
+      <source file="..\..\..\spi.h" lastModified="1614c959300">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\ff\ff.h" lastModified="12d89664100">
+         <include file="..\..\..\ff\integer.h"/>
+         <include file="..\..\..\ff\ffconf.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="144061cf66b">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\spi.c" lastModified="16157b3b572">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\spi.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="144061cfab7">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="144061d0131">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\mmc.h" lastModified="13e64321560">
+         <include file="..\..\..\ff\ff.h"/>
+         <include file="..\..\..\ff\diskio.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\Ethernet\W5500\w5500.h" lastModified="14835531ff2">
+         <include file="..\..\..\Ethernet\wizchip_conf.h"/>
+      </source>
+      <source file="..\..\..\mmc.c" lastModified="13e64687f10">
+         <include file="..\..\..\mmc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_bkp.c" lastModified="144061d016d">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="144061d06bd">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="144061d2855">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\ff\ffconf.h" lastModified="12f837bb7f0">
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\..\..\Desktop\web_discovery+w5500_sd\Ethernet /I..\..\..\..\..\..\..\Desktop\web_discovery+w5500_sd\stm_lib\inc /I..\..\..\..\..\..\..\Desktop\web_discovery+w5500_sd\cmsis_boot /I..\..\..\..\..\..\..\Desktop\web_discovery+w5500_sd\ff /I..\..\..\..\..\..\..\Desktop\web_discovery+w5500_sd\cmsis /I..\..\..\..\..\..\.. /I..\..\..\..\..\..\..\Desktop /I..\..\..\..\..\..\..\Desktop\web_discovery+w5500_sd\Ethernet\W5500 /I..\..\..\..\..\..\..\Desktop\web_discovery+w5500_sd\stm_lib /I..\..\..\..\..\..\..\Desktop\web_discovery+w5500_sd">
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="144061d1c6b">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\ff\diskio.h" lastModified="12d4cdcf850">
+         <include file="..\..\..\ff\integer.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="144061cf657">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_pwr.h" lastModified="144061d0131">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="144061d06c7">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="144061cf6a7">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="144061cf701">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="144061cf6e3">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_bkp.h" lastModified="144061d0163">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="144061cf6d9">
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="144061d359d">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\Ethernet\socket.h" lastModified="14835531bd8">
+         <include file="..\..\..\Ethernet\wizchip_conf.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="144061d2855">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="144061d1c6b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="144061d3593">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\ff\ff.h" lastModified="12d89664100">
+         <include file="..\..\..\ff\integer.h"/>
+         <include file="..\..\..\ff\ffconf.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="144061cf66b">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="144061d0131">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\mmc.h" lastModified="13e64321560">
+         <include file="..\..\..\ff\ff.h"/>
+         <include file="..\..\..\ff\diskio.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\mmc.c" lastModified="13e64687f10">
+         <include file="..\..\..\mmc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_bkp.c" lastModified="144061d016d">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="144061d06bd">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="144061d2855">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\ff\ffconf.h" lastModified="12f837bb7f0">
+      </source>
+   </includePath>
+</dependencies>

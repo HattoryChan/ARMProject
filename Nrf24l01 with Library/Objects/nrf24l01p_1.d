@@ -1,0 +1,9 @@
+.\objects\nrf24l01p_1.o: nRF24L01_lib_stm32_gcc\nRF24L01P.c
+.\objects\nrf24l01p_1.o: .\stm_lib\inc\stm32f10x_RCC.h
+.\objects\nrf24l01p_1.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\stm32f10x.h
+.\objects\nrf24l01p_1.o: .\CMSIS\core_cm3.h
+.\objects\nrf24l01p_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\nrf24l01p_1.o: C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include\system_stm32f10x.h
+.\objects\nrf24l01p_1.o: .\stm_lib\inc\stm32f10x_GPIO.h
+.\objects\nrf24l01p_1.o: .\stm_lib\inc\stm32f10x_SPI.h
+.\objects\nrf24l01p_1.o: nRF24L01_lib_stm32_gcc\nRF24l01P.h

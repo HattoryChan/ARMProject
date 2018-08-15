@@ -1,0 +1,14 @@
+.\objects\croutine.o: FReeRTOS_STM32f100RB\croutine.c
+.\objects\croutine.o: .\FReeRTOS_STM32f100RB\include\FreeRTOS.h
+.\objects\croutine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\croutine.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\croutine.o: .\FReeRTOS_STM32f100RB\include\FreeRTOSConfig.h
+.\objects\croutine.o: .\FReeRTOS_STM32f100RB\include\projdefs.h
+.\objects\croutine.o: .\FReeRTOS_STM32f100RB\include\portable.h
+.\objects\croutine.o: .\FReeRTOS_STM32f100RB\include\deprecated_definitions.h
+.\objects\croutine.o: .\FReeRTOS_STM32f100RB\include\portmacro.h
+.\objects\croutine.o: .\FReeRTOS_STM32f100RB\include\mpu_wrappers.h
+.\objects\croutine.o: .\FReeRTOS_STM32f100RB\include\task.h
+.\objects\croutine.o: .\FReeRTOS_STM32f100RB\include\list.h
+.\objects\croutine.o: .\FReeRTOS_STM32f100RB\include\croutine.h
+.\objects\croutine.o: .\FReeRTOS_STM32f100RB\include\list.h

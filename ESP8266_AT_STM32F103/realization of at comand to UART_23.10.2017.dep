@@ -1,0 +1,74 @@
+Dependencies for Project 'realization of at comand to UART', Target '23.10.2017': (DO NOT MODIFY !)
+F (.\main.h)(0x59F23E53)()
+F (.\main.cpp)(0x59F23EBE)(--cpp -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F100RB-I.\RTE\_23.10.2017-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD_VL-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (main.h)(0x59F23E53)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825629C)
+I (.\RTE\_23.10.2017\RTE_Components.h)(0x59ED0896)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\core_cm3.h)(0x59C0F24E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BAD74)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_version.h)(0x598437F6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_compiler.h)(0x59C0F24E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_armcc.h)(0x59C0F24E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825629C)
+I (ESP8266_AT.h)(0x59F23E9D)
+I (ESP8266_SendUart.h)(0x5906CE75)
+F (.\ESP8266_AT.cpp)(0x59F23E9D)(--cpp -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F100RB-I.\RTE\_23.10.2017-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD_VL-o .\esp8266_at.o --omf_browse .\esp8266_at.crf --depend .\esp8266_at.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BAD74)
+I (ESP8266_AT.h)(0x59F23E9D)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825629C)
+I (.\RTE\_23.10.2017\RTE_Components.h)(0x59ED0896)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\core_cm3.h)(0x59C0F24E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BAD74)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_version.h)(0x598437F6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_compiler.h)(0x59C0F24E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_armcc.h)(0x59C0F24E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825629C)
+I (ESP8266_SendUart.h)(0x5906CE75)
+F (.\ESP8266_AT.h)(0x59F23E9D)()
+F (.\ESP8266_SendUart.cpp)(0x59A4672E)(--cpp -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F100RB-I.\RTE\_23.10.2017-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD_VL-o .\esp8266_senduart.o --omf_browse .\esp8266_senduart.crf --depend .\esp8266_senduart.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825629C)
+I (.\RTE\_23.10.2017\RTE_Components.h)(0x59ED0896)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\core_cm3.h)(0x59C0F24E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BAD74)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_version.h)(0x598437F6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_compiler.h)(0x59C0F24E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_armcc.h)(0x59C0F24E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825629C)
+F (.\ESP8266_SendUart.h)(0x5906CE75)()
+F (.\STM32_Flash.cpp)(0x59A46746)(--cpp -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F100RB-I.\RTE\_23.10.2017-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD_VL-o .\stm32_flash.o --omf_browse .\stm32_flash.crf --depend .\stm32_flash.d)
+I (main.h)(0x59F23E53)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825629C)
+I (.\RTE\_23.10.2017\RTE_Components.h)(0x59ED0896)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\core_cm3.h)(0x59C0F24E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BAD74)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_version.h)(0x598437F6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_compiler.h)(0x59C0F24E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_armcc.h)(0x59C0F24E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825629C)
+I (ESP8266_AT.h)(0x59F23E9D)
+I (ESP8266_SendUart.h)(0x5906CE75)
+F (.\STM32_Flash.h)(0x59A46746)()
+F (.\STM32_Timer_Library.cpp)(0x593154C2)(--cpp -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F100RB-I.\RTE\_23.10.2017-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD_VL-o .\stm32_timer_library.o --omf_browse .\stm32_timer_library.crf --depend .\stm32_timer_library.d)
+I (STM32_Timer_Library.h)(0x5926DA79)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825629C)
+I (.\RTE\_23.10.2017\RTE_Components.h)(0x59ED0896)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\core_cm3.h)(0x59C0F24E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BAD74)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_version.h)(0x598437F6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_compiler.h)(0x59C0F24E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_armcc.h)(0x59C0F24E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825629C)
+I (STM32_Flash.h)(0x59A46746)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588BAD74)
+F (.\STM32_Timer_Library.h)(0x5926DA79)()
+F (RTE\Device\STM32F100RB\RTE_Device.h)(0x57D279A0)()
+F (RTE\Device\STM32F100RB\startup_stm32f10x_md_vl.s)(0x5825629C)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\STM32F100RB-I.\RTE\_23.10.2017-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD_VL SETA 1"--list .\startup_stm32f10x_md_vl.lst --xref -o .\startup_stm32f10x_md_vl.o --depend .\startup_stm32f10x_md_vl.d)
+F (RTE\Device\STM32F100RB\system_stm32f10x.c)(0x5825629C)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Device\STM32F100RB-I.\RTE\_23.10.2017-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD_VL-o .\system_stm32f10x.o --omf_browse .\system_stm32f10x.crf --depend .\system_stm32f10x.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825629C)
+I (.\RTE\_23.10.2017\RTE_Components.h)(0x59ED0896)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\core_cm3.h)(0x59C0F24E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588BAD74)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_version.h)(0x598437F6)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_compiler.h)(0x59C0F24E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.1.1\CMSIS\Include\cmsis_armcc.h)(0x59C0F24E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825629C)

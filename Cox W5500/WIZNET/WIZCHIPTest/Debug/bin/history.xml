@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m3 -mthumb -g2 -nostartfiles -Map=WIZCHIPTest.map -O2 --gc-sections --specs=nano.specs -LC:\Users\Admin\AppData\Roaming\CooCox\CoIDE\configuration\ProgramData\WIZCHIPTest -TC:\Users\Admin\AppData\Roaming\CooCox\CoIDE\configuration\ProgramData\WIZCHIPTest/arm-gcc-link.ld -g">
+      <target file="WIZCHIPTest.elf" lastModified="15fd3f127f0">
+         <source file="..\obj\xspi.o" lastModified="15fd3d11074"/>
+         <source file="..\obj\xgpio.o" lastModified="15fd3d10b43"/>
+         <source file="..\obj\xcore.o" lastModified="15fd3d10a28"/>
+         <source file="..\obj\startup_coide.o" lastModified="15fd3d108dc"/>
+         <source file="..\obj\socket.o" lastModified="15fd3d10865"/>
+         <source file="..\obj\syscalls.o" lastModified="15fd3d11103"/>
+         <source file="..\obj\xdebug.o" lastModified="15fd3d10942"/>
+         <source file="..\obj\dhcp.o" lastModified="15fd3d11261"/>
+         <source file="..\obj\wizchip_conf.o" lastModified="15fd3d10d02"/>
+         <source file="..\obj\w5500.o" lastModified="15fd3d10e93"/>
+         <source file="..\obj\xsysctl.o" lastModified="15fd3d10f95"/>
+         <source file="..\obj\xuart.o" lastModified="15fd3d11351"/>
+         <source file="..\obj\printf.o" lastModified="15fd3d10dea"/>
+         <source file="..\obj\main.o" lastModified="15fd3f125ac"/>
+      </target>
+   </processor>
+</history>
